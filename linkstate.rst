@@ -28,3 +28,36 @@ conference:
 - Reserves all necessary rooms for the conference day.
 - Makes any arrangements for parking and validation.
 
+**Chair of Guests:** This person organizes swag the guests will receive:
+
+- Solicits a logo for the conference, for shirts and flyers.
+- Conducts polls (Eventbrite!) to estimate shirt size distribution.
+- Orders shirts.
+- Organizes nametags.
+- Organizes résumé book.
+
+Day Of Volunteers
+-----------------
+
+These are volunteers who show up and make the Link-State actually Link-State:
+
+**Room Handler[s]:** Person[s] in charge of handling a speaking room:
+
+- Ensures timeliness of speakers.
+- Manages A/V needs of the speaker.
+- Hands out gift.
+- Is installed in the room for a half-day or full-day shift.
+
+**Greeter[s]:** Person[s] in charge of greeting guests:
+
+- Greets new arrivals.
+- Checks them in on Eventbrite. (Needs access to Eventbrite password!)
+- Gives them a T-shirt / nametag.
+
+**Facilities Assistance:** People who assist as needed with food / facilities needs:
+
+- Assists in food runs for each meal.
+- Assists in setting up food.
+- Assists in rearranging tables / chairs as needed.
+- Assists in setup / teardown of event.
+- At least one should be floating around the lobby at all times.
