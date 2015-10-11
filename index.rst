@@ -13,7 +13,7 @@ Contents:
 
    linkstate
    communications
-   trello
+   trello_for_projects
 
 
 Indices and tables

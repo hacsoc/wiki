@@ -54,12 +54,14 @@ Trello
     - How you should use trello depends on what type of board you’re working on at the given moment.
     - Board for a Repository
 
-        - Boy, you’re in luck. Someone wrote this great wiki page for how to use Trello as an issue tracker for a project. You can check it out `here <https://github.com/hacsoc/hack_cwru/wiki/Trello>`_.
+        - Boy, you’re in luck. Someone wrote this great wiki page for how to use Trello as an issue tracker for a project. You can check it out `here`_.
     - General Board/Board for an Event
 
         - Column-based movement from start to completion
 
 - Multiplicity of admins
+
+.. _here: :doc:<trello_for_projects>
 
 Slack
 -----------
