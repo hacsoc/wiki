@@ -14,7 +14,8 @@ This is all about getting a set of written conventions for using our array of co
 
 It is best to assume that other services shouldn’t be used for official group communication, but this list of conventions is intended neither to restrict nor to forbid use of any other service. Particularly for person-to-person contact, other services may serve people better and they should use those services. Improving the productivity/effect of using a service by changing the convention is highly recommended.
 
-**Email**
+Email
+---------
 
 - Old, somewhat clunky, and the most important of our communications.
 - Contains several mailing lists:
@@ -32,14 +33,18 @@ It is best to assume that other services shouldn’t be used for official group 
 - Has to move over to some Google hosted service before the end of the year?
 
 
-**GitHub:** `Hacsoc Github`_
+GitHub
+--------------------------
+`Hacsoc Github`_
 
 .. _Hacsoc Github: https://github.com/hacsoc
 
 - Always welcome new issue submissions, and Pull Requests
 - Organization and project administration.
 
-**Trello:** `Hacsoc Trello`_
+Trello
+------------------------
+`Hacsoc Trello`_
 
 .. _Hacsoc Trello: trello.com/hacsoc
 
@@ -49,14 +54,16 @@ It is best to assume that other services shouldn’t be used for official group 
     - How you should use trello depends on what type of board you’re working on at the given moment.
     - Board for a Repository
 
-        - Boy, you’re in luck. Someone wrote this great wiki page for how to use Trello as an issue tracker for a project. You can check it out `here <https://github.com/hacsoc/hack_cwru/wiki/Trello>`_ .
+        - Boy, you’re in luck. Someone wrote this great wiki page for how to use Trello as an issue tracker for a project. You can check it out `here <https://github.com/hacsoc/hack_cwru/wiki/Trello>`_.
     - General Board/Board for an Event
 
         - Column-based movement from start to completion
 
 - Multiplicity of admins
 
-**Slack:** `Hacsoc Slack`_ 
+Slack
+-----------
+`Hacsoc Slack`_ 
 
 .. _Hacsoc Slack: hacsoc.slack.com
 
@@ -68,7 +75,9 @@ It is best to assume that other services shouldn’t be used for official group 
 	- Label/color convention (code project boards vs other boards)
 	- Integrating a channel with Trello
 
-**IRC:** `CWRU IRC`_
+IRC
+----------
+`CWRU IRC`_
 
 .. _CWRU IRC: http://irc.case.edu 
 
