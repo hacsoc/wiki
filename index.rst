@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    linkstate
+   communications
 
 
 Indices and tables
