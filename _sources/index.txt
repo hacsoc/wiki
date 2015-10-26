@@ -12,6 +12,8 @@ Contents:
    :maxdepth: 2
 
    linkstate
+   communications
+   trello_for_projects
 
 
 Indices and tables
