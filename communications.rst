@@ -39,7 +39,7 @@ Trello
 ------------------------
 `Hacsoc Trello`_
 
-.. _Hacsoc Trello: trello.com/hacsoc
+.. _Hacsoc Trello: https://trello.com/hacsoc
 
 - Boards:
 
@@ -59,7 +59,7 @@ Slack
 -----------
 `Hacsoc Slack`_ 
 
-.. _Hacsoc Slack: hacsoc.slack.com
+.. _Hacsoc Slack: https://hacsoc.slack.com
 
 - The place for low-latency communication. Everyone should have Slack easily accessible and should reasonably promptly receive push notifications for ``@`` notifications in ``#general`` and for direct messages. 
 - Devices: mobile/desktop/web
