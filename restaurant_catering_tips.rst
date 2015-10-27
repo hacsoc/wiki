@@ -1,0 +1,48 @@
+Specific Catering Tips
+===================
+
+
+Potbelly's
+----------------
+
+- Surprisingly cheap, sandwiches are $5 each for cheapest tier
+- Easy to scale, chips/cookie are each available at higher tiers.  Assorted by default
+- Variety is important.  Most sandwiches are effectively a "pile of meat"
+- Provides toppings on the side
+- Provides plates/napkins
+- Offers chili and salad as well.  Serving/consuming utensils provided
+- Ordering is pretty painless and straightforward
+- We're routinely they're largest single customer
+
+Ohio City Burrito (OCB)
+-----------------------------
+
+- No special catering menu, or pricing
+- No plates/napkins provided
+- Rather painful to order from (several phone calls/emails required, slow response time)
+- Burrito prices are not bad, at ~$6, reguardless of meat/guac
+- Offers guac
+- Relatively far away
+
+
+Jimmy John's
+-------------------------
+
+- Napkins?
+- Costs about $4/person when doing a party platter
+- Easy to order
+- Delivery is an option, but plan to have a cart to wheel them into the building
+- Chips are common to pair with sandwiches, cookies less so
+
+	- Chips are NOT a good idea for talks.  They're loud and distracting.
+
+Bon Appétit (BA)
+-------------------------
+
+- Don't write them off!
+- Dead simple to order from: email with time, place, and quantity.  Pay with campus speedtype
+- Can order on very short time frame
+- They will do setup and teardown
+- Is quite expensive
+- Coffee/Tea is a reasonable choice at $2 total per person for both
+

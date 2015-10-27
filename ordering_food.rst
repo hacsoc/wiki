@@ -3,7 +3,7 @@ How Cater Food
 
 **Two Weeks Out:**
 
-1.  Decide on location[s]
+1.  Decide on location[s].  Oh hey.  :doc:`restaurant_catering_tips`
 
 **Week and a Half Out:**
 
