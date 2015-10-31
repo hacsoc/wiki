@@ -12,7 +12,7 @@ Potbelly's
 - Provides plates/napkins
 - Offers chili and salad as well.  Serving/consuming utensils provided
 - Ordering is pretty painless and straightforward
-- We're routinely they're largest single customer
+- We're routinely their largest single customer
 
 Ohio City Burrito (OCB)
 -----------------------------
@@ -28,7 +28,7 @@ Ohio City Burrito (OCB)
 Jimmy John's
 -------------------------
 
-- Napkins?
+- Does not provide napkins/plates
 - Costs about $4/person when doing a party platter
 - Easy to order
 - Delivery is an option, but plan to have a cart to wheel them into the building
