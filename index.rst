@@ -11,10 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   linkstate
-   ordering_food
-   communications
-   trello_for_projects
+   organizational/index
+   technical/index
    directory
 
 
