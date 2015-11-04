@@ -15,6 +15,7 @@ Contents:
    ordering_food
    communications
    trello_for_projects
+   directory
 
 
 Indices and tables
