@@ -1,16 +1,28 @@
+CAS
+===
+
 Case has deployed JA-SIG's `Central Authentication
-Service <http://jasigch.princeton.edu:9000/display/CAS/Home>`__, or CAS,
+Service <https://jasig.github.io/cas/4.1.x/index.html>`_, or CAS,
 to allow services to easily authenticate users. The service entered
 production use on September 6, 2005.
+
+**Please Note:** This article has been created from an archived copy of the CAS
+article from wiki.case.edu.  Although it has been lightly edited, you can expect
+that many of the links are dead, and some of the information is outdated.  I've
+tried to keep as much information intact as possible, but I have removed some
+sections and updated some links.
+
+.. contents:: Table of Contents
 
 Using CAS
 ---------
 
-Users can log into CAS at https://login.case.edu/cas/. Users can log out
-of CAS at https://login.case.edu/cas/logout. If a user logs into CAS, he
-or she can be logged in to any application that participates in the
-service without again specifying his or her password for a period of up
-to 8 hours.
+Users can log into CAS at https://login.case.edu/cas/. Users can log out of CAS
+at https://login.case.edu/cas/logout. If a user logs into CAS, he or she can be
+logged in to any application that participates in the service without again
+specifying his or her password for a period of up to 8 hours.  Most users do not
+visit login.case.edu directly, but instead they are typically redirected there
+by client applications.  This process is described below.
 
 Frequently Asked Questions
 --------------------------
@@ -18,125 +30,89 @@ Frequently Asked Questions
 Why do I need to change my password before I can log in?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CAS integrates with the university's password policy requirements. If
-your password is expired and you attempt to log in, CAS will inform you
-of such. You will be given a link to change your password.
+CAS integrates with the university's password policy requirements. If your
+password is expired and you attempt to log in, CAS will inform you of such. You
+will be given a link to change your password.
 
 Why should I close my browser when I am done?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you log in to CAS, a cookie is stored in your browser that allows
-you to be automatically logged in to other sites. This cookie is set to
-expire at the end of your browser's session. So, when you close your
-browser, this cookie no longer exists and you can no longer be
-automatically be logged in to any more sites without specifying your
-password again.
+When you log in to CAS, a cookie is stored in your browser that allows you to be
+automatically logged in to other sites. This cookie is set to expire at the end
+of your browser's session. So, when you close your browser, this cookie no
+longer exists and you can no longer be automatically be logged in to any more
+sites without specifying your password again.
 
-It is possible to log out of CAS by visiting
-https://login.case.edu/cas/logout, however, this is not a secure form of
-logging out! Some sites may still have you recorded as logged in through
-the use of cookies on those specific sites. Closing your browser is the
-easiest way to guarantee that the next user of a computer will not be
-surfing the web under your identity.
+It is possible to log out of CAS by visiting https://login.case.edu/cas/logout,
+however, this is not a secure form of logging out! Some sites may still have you
+recorded as logged in through the use of cookies on those specific
+sites. Closing your browser is the easiest way to guarantee that the next user
+of a computer will not be surfing the web under your identity.
 
 Authentication versus authorization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you access content, there are two phases you must go through to be
-allowed to access it: authentication and authorization. Authentication
-is proving that you are who you say you are. Authorization is
-determining whether a proven person is *authoriz*\ ed to access
-something. CAS handles authentication. By logging in to CAS, CAS can
-authenticate your identity to participating services because you have
-authenticated yourself to CAS and CAS is trusted by the services that
-use it. CAS does not handle authorization to individual services. It is
-up to the individual services to determine if a user is allowed to
-access them.
+When you access content, there are two phases you must go through to be allowed
+to access it: authentication and authorization. Authentication is proving that
+you are who you say you are. Authorization is determining whether a proven
+person is *authoriz*\ ed to access something. CAS handles authentication. By
+logging in to CAS, CAS can authenticate your identity to participating services
+because you have authenticated yourself to CAS and CAS is trusted by the
+services that use it. CAS does not handle authorization to individual
+services. It is up to the individual services to determine if a user is allowed
+to access them.
 
 How do I obtain the user's name, status, etc
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CAS merely authenticates a user. All the services know is that a
-username, *abc123* is accessing their site. CAS does not provide
-information about users to accessed services. However, all is not lost.
-This information is contained within the university's `LDAP <LDAP>`__
-server. It is possible for end-services to query the LDAP server for
-information about these users to control and customize service behavior.
-Some examples are displaying the user's name, filtering content based
-upon user's role within the university (student, staff, faculty, etc),
-grade level of student (freshmen, sophomore, junior, senior, etc). To
-find information on how to do this, consult the `LDAP article <LDAP>`__.
+CAS merely authenticates a user. All the services know is that a username,
+*abc123* is accessing their site. CAS does not provide information about users
+to accessed services. However, all is not lost.  This information is contained
+within the university's LDAP server. It is possible for end-services to query
+the LDAP server for information about these users to control and customize
+service behavior.  Some examples are displaying the user's name, filtering
+content based upon user's role within the university (student, staff, faculty,
+etc), grade level of student (freshmen, sophomore, junior, senior, etc).
 
 Why should I change my existing service to use CAS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The simple answer: supplying your password to log in all the time is
-annoying. Wouldn't it be convenient to just type your password once
-every eight hours and be done with it? Besides, the fewer times users
-need the password, the more incentive there is for them to chose a
-better, more difficult to break, takes longer to type password.
+annoying. Wouldn't it be convenient to just type your password once every eight
+hours and be done with it? Besides, the fewer times users need the password, the
+more incentive there is for them to chose a better, more difficult to break,
+takes longer to type password.
 
-I have more questions, who do I contact
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Contact
+~~~~~~~
 
-If you have a question about CAS that isn't answered here, you have two
-options:
-
-#. Post a comment on
-   `{{ns:talk}}:{{PAGENAME}} <{{ns:talk}}:{{PAGENAME}}>`__.
-#. Send an e-mail to sso-admin@case.edu
-
-1) is preferred, as dialogue on this wiki can be referenced by others in
-your same shoes.
+It appears that the email address sso-admin@case.edu may be able to help, but
+this info comes from an old Case Wiki page that may be outdated.
 
 Web Sites and Applications Using CAS
 ------------------------------------
 
-If you maintain a website that uses CAS, please add your site to the
-list below. The sites are listen in chronological order (at least for
-now).
+If you maintain a website that uses CAS, please add your site to the list
+below. The sites are listen in chronological order (at least for now).
 
 Deployed
 ~~~~~~~~
 
--  `Case Wiki <Main_Page>`__ (since September 6, 2005)
--  `Blogs@Case <http://blog.case.edu>`__ (since September 6, 2005)
--  `ITS Services <http://its-services.case.edu>`__ (since September 6,
-   2005)
--  Shibboleth (since September 6, 2005)
--  `USG Funding System <http://usg.case.edu/funding/>`__ (since
-   September 8, 2005)
--  `Bookswap Account Status <http://bookswap.case.edu/acct/>`__ (since
-   September 9, 2005)
--  `Software Center <https://softwarecenter.case.edu>`__ (Since
-   September 29, 2005)
--  `Lists@Case <http://lists.case.edu>`__ (since October of 2005)
--  `Case Screensaver Web Interface <http://photos.case.edu>`__ (since
-   October of 2005)
--  `Schedule.case.edu <http://schedule.case.edu>`__ (since November 18,
-   2005)
--  `Student Affairs <http://studentaffairs.case.edu>`__ and all related
-   sites (since February 16, 2006)
--  `Blackboard <http://blackboard.case.edu>`__ (since February 16, 2006)
+- Case Wiki - wiki.case.edu (since September 6, 2005) (no longer available)
+- `Blogs@Case <http://blog.case.edu>`__ (since September 6, 2005)
+- `ITS Services <http://its-services.case.edu>`__ (since September 6, 2005)
+- Shibboleth (since September 6, 2005)
+- `USG Funding System <http://usg.case.edu/funding/>`__ (since September 8, 2005)
+- `Bookswap Account Status <http://bookswap.case.edu/acct/>`__ (since September 9, 2005)
+- `Software Center <https://softwarecenter.case.edu>`__ (Since September 29, 2005)
+- `Lists@Case <http://lists.case.edu>`__ (since October of 2005)
+- `Case Screensaver Web Interface <http://photos.case.edu>`__ (since October of 2005)
+- Schedule.case.edu (since November 18, 2005) (not a thing anymore)
+- `Student Affairs <http://studentaffairs.case.edu>`__ and all related sites (since February 16, 2006)
+- `Blackboard <http://blackboard.case.edu>`__ (since February 16, 2006)
 
-In the Future
-~~~~~~~~~~~~~
-
--  `Online Phonebook <http://phonebook.case.edu>`__ (in testing)
--  `Web Mail <http://mail.case.edu>`__ (in testing)
--  `Oracle Calendar <http://calendar.case.edu>`__ (planned)
--  `Case Portal <http://my.case.edu>`__ (could be a while)
--  `Peoplesoft <http://www.case.edu/erp/hcm>`__ (directions at
-   https://clearinghouse.ja-sig.org/wiki/display/CAS/CASifying+PeopleSoft)
-
-Statistics
-~~~~~~~~~~
-
-CAS has some benchmarks on the `ITS Dashboard <ITS_Dashboard>`__
-
-+-------+-------+
-| 188   | 185   |
-+-------+-------+
+Probably a lot more by now.  Really, pretty much every web application at CWRU
+is integrated with CAS.
 
 How CAS Works
 -------------
@@ -144,38 +120,36 @@ How CAS Works
 Basic overview
 ~~~~~~~~~~~~~~
 
-When a user accesses a site that uses CAS, that site redirects the user
-to CAS (login.case.edu). Once CAS has verified a user's identity, it
-forwards them back to the original site. CAS attaches a unique ticket
-number to the URL of the protected service. The protected service sees
-this ticket. It sends this ticket to CAS. CAS tells the protected
-service whether the ticket is good and if so, the `Case ID <Case_ID>`__
-that was used to obtain the ticket. The protected service reacts
+When a user accesses a site that uses CAS, that site redirects the user to CAS
+(login.case.edu). Once CAS has verified a user's identity, it forwards them back
+to the original site. CAS attaches a unique ticket number to the URL of the
+protected service. The protected service sees this ticket. It sends this ticket
+to CAS. CAS tells the protected service whether the ticket is good and if so,
+the Case ID that was used to obtain the ticket. The protected service reacts
 accordingly, allowing access if the ticket is good.
 
 Detailed overview
 ~~~~~~~~~~~~~~~~~
 
-When you log into CAS at https://login.case.edu/cas/, a
-`cookie <cookie>`__ is saved in your browser. This cookie contains a
-unique ticket number that identifies you to the CAS server. Every time
-you access https://login.case.edu after you are logged in, your browser
-automatically transmits this cookie to the web server. CAS reads the
-cookie, looks up the ticket in its database, and identifies you.
+When you log into CAS at https://login.case.edu/cas/, a cookie is saved in your
+browser. This cookie contains a unique ticket number that identifies you to the
+CAS server. Every time you access https://login.case.edu after you are logged
+in, your browser automatically transmits this cookie to the web server. CAS
+reads the cookie, looks up the ticket in its database, and identifies you.
 
 CAS clients behave a little differently. Say you access
 http://blog.case.edu/mt/mt-cas.cgi. When you load up that page, the page
-requires that you be logged into CAS to access it. How does this work?
-The page redirects you to
+requires that you be logged into CAS to access it. How does this work?  The page
+redirects you to
 
 ``https://login.case.edu/cas/login?service=http://blog.case.edu/mt/mt-cas.cgi``
 
-via an HTTP Location header. Once CAS has verified you are logged in, it
-sends you back to the URL specified in the *service* parameter, in this
-case http://blog.case.edu/mt/mt-cas.cgi. There is, however, one small
-change. CAS appends a service ticket to the URL, like
+via an HTTP Location header. Once CAS has verified you are logged in, it sends
+you back to the URL specified in the *service* parameter, in this case
+http://blog.case.edu/mt/mt-cas.cgi. There is, however, one small change. CAS
+appends a service ticket to the URL, like
 
-```http://blog.case.edu/mt/mt-cas.cgi?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc`` <http://blog.case.edu/mt/mt-cas.cgi?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc>`__
+```http://blog.case.edu/mt/mt-cas.cgi?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc``
 
 The CAS client sees that the *ticket* parameter is defined and knows the
 user has just come from https://login.case.edu. The CAS client then
@@ -240,7 +214,7 @@ Configuring Applications to Use CAS
 
 CAS is being used because it supports many clients for authentication. A
 fairly complete list of clients is
-`available <http://jasigch.princeton.edu:9000/display/CAS/Clients>`__.
+`available <https://jasig.github.io/cas/4.1.x/integration/CAS-Clients.html>`__.
 To use CAS for authentication, you need to know the following
 parameters:
 
@@ -259,15 +233,14 @@ If one the following clients does not work or does not apply to you, you
 may wish to create your own CAS client. This is relatively simple
 because CAS operates over HTTP and the protocol is relatively simple.
 Consulting the `CAS
-protocol <http://jasigch.princeton.edu:9000/display/CAS/CAS+2.0+Protocol+Specification>`__
+protocol <https://jasig.github.io/cas/4.1.x/protocol/CAS-Protocol.html>`__
 is a necessary step to properly design a client.
 
-Some clients, such as the Apache modules, require that the certificate
-used by the login server to be verified. For these, you need to obtain
-the public certificate for the `Certificate
-Authority <Certificate_Authority>`__ for https://login.case.edu. The
-certificate authority is Entrust Server CA and its public certificate
-can be found below under the Apache 2 instructions.
+Some clients, such as the Apache modules, require that the certificate used by
+the login server to be verified. For these, you need to obtain the public
+certificate for the Certificate Authority for https://login.case.edu. The
+certificate authority is Entrust Server CA and its public certificate can be
+found below under the Apache 2 instructions.
 
 Using Apache
 ~~~~~~~~~~~~
@@ -342,10 +315,9 @@ Once the module is installed, you need to edit your Apache config file
     CASLocalCacheTimeout 7200
     CASLocalCacheInsecure Off
 
-The **CasTrustedCerts** directive should point to a file containing the
-public certificate of the `Certificate
-Authority <Certificate_Authority>`__ for the CAS server. It is
-recommended to create a file with the following contents:
+The **CasTrustedCerts** directive should point to a file containing the public
+certificate of the Certificate Authority for the CAS server. It is recommended
+to create a file with the following contents:
 
 ::
 
@@ -406,42 +378,30 @@ verify everything is working as it should.
 Apache 2.2
 ^^^^^^^^^^
 
-The Apache 2.0 module is not compatible with Apache 2.2 due to Apache
-API changes. `Gregory Szorc <User:Gregory.Szorc>`__ will be working on
-writing a CAS module for Apache 2.2. If you have an urgent need for this
-module, let him know.
-
-AuthCAS mod\_perl Module
-^^^^^^^^^^^^^^^^^^^^^^^^
+The Apache 2.0 module is not compatible with Apache 2.2 due to Apache API
+changes. Gregory Szorc will be working on writing a CAS module for Apache
+2.2. If you have an urgent need for this module, let him know.
 
 IIS
 ~~~
 
--  `CAS ISAPI filter for
-   ISS <http://jasigch.princeton.edu:9000/display/CAS/ISAPI+Filter>`__
--  `CCCI CAS <http://gcx1.mygcx.org/cas/CCCIChanges.html>`__ alternative
-   plugin for ISS/Apache (see
-   `documentation <http://gcx1.mygcx.org/cas/web-server-agent/doc/CasAgentDoc.html>`__)
+- `CAS ISAPI filter for ISS <http://jasigch.princeton.edu:9000/display/CAS/ISAPI+Filter>`__
+  (*dead link, sorry*)
+- `CCCI CAS <http://gcx1.mygcx.org/cas/CCCIChanges.html>`__
+  alternative plugin for ISS/Apache (see
+  `documentation <http://gcx1.mygcx.org/cas/web-server-agent/doc/CasAgentDoc.html>`__)
+  (*also dead links*)
 
 *These filters are not well supported, and may not even work at all. If
 you are successful in implementing any ISAPI filters, please add
 instructions for doing so here.*
 
-ASP.NET
-~~~~~~~
-
-You can use
-`CASP <http://opensource.case.edu/projects/CAS/wiki/CASP>`__, a small C#
-class written by a programmer at Case for authenticating with CAS
-through ASP.NET.
-
 PHP
 ~~~
 
-There are two PHP libraries that can be used with CAS at Case. The `Case
-CAS Module <#Case_CAS_Module>`__ is very simple. It requires PHP 5 to
-run. `phpCAS <#phpCAS>`__ supports all the bells and whistles of CAS,
-but requires a little more setup.
+There are two PHP libraries that can be used with CAS at Case. The Case CAS
+Module is very simple. It requires PHP 5 to run.  phpCAS supports all the bells
+and whistles of CAS, but requires a little more setup.
 
 Case CAS Module
 ^^^^^^^^^^^^^^^
@@ -450,6 +410,9 @@ Information about this module is available at
 http://opensource.case.edu/projects/CaseClasses/. The source code is
 available at
 http://opensource.case.edu/svn/CaseClasses/php/trunk/Case/Authn/CAS.php.
+
+**Note:** Both links above are dead.  Updated sources for the Case CAS module
+(if it still exists) would be very much appreciated.
 
 Sample usage:
 
@@ -547,34 +510,29 @@ Example PHP Script
 Perl
 ~~~~
 
-See http://sourcesup.cru.fr/perlcas/
+See http://sourcesup.cru.fr/perlcas/.  Link is dead, search for perlCAS may dig
+something up.
 
 Java
 ~~~~
 
-See http://jasigch.princeton.edu:9000/display/CAS/Java+Client
+See http://jasigch.princeton.edu:9000/display/CAS/Java+Client.  Link is dead!
+If you use CAS with Java and find an appropriate resource, please update this
+wiki with it!
 
 Ruby / Ruby on Rails
 ~~~~~~~~~~~~~~~~~~~~
 
-See http://www.ja-sig.org/wiki/display/CAS/Ruby+on+Rails+CAS+Client
+`RubyCAS <https://github.com/rubycas>`_ has a client and server implementation.
+For integrating with Case CAS, you are interested only in the client
+implementation.
 
-ColdFusion
-~~~~~~~~~~
+Django
+~~~~~~
 
-See http://www.ja-sig.org/wiki/display/CAS/ColdFusion+client+script
+Most modules for CAS in Django are named "django-cas" or something similar, so
+they're rather difficult to tell apart.  Here are a couple distinct ones, you'll
+have to try a couple out and see which ones work for you.
 
-Zope
-~~~~
-
-See http://www.zope.org/Members/mrlex/ACUF
-
-VBScript
-~~~~~~~~
-
-`Undergraduate Admission <Office_of_Undergraduate_Admission>`__'s own
-`Jonathan Wehner <User:Jonathan.Wehner>`__ has created a skeleton
-framework for using CAS in VBScript. See
-http://opensource.case.edu/projects/CAS/wiki/VBScript.
-
-`Category:ITS Services <Category:ITS_Services>`__
+- `django-cas <https://github.com/castlabs/django-cas>`_
+- `django-cas2 <https://github.com/KTHse/django-cas2>`_
