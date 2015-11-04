@@ -14,6 +14,7 @@ Contents:
    linkstate
    communications
    trello_for_projects
+   directory
 
 
 Indices and tables
