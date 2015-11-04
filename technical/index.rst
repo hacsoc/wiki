@@ -6,3 +6,5 @@ be interesting to the general HacSoc group.
 
 .. toctree::
    :maxdepth: 1
+
+   cas
