@@ -19,7 +19,7 @@ Active Members
 - Stephen Brennan: http://stephen-brennan.com
 - Andrew Mason: http://ajm188.github.io
 - Matthew Bentley: http://bentley.link
-
+- Katherine Cass: http://katherinecass.me
 Alumni
 ------
 
