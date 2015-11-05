@@ -6,7 +6,8 @@ Potbelly's
 ----------------
 
 - Surprisingly cheap, sandwiches are $5 each for cheapest tier
-- Easy to scale, chips/cookie are each available at higher tiers.  Assorted by default
+- Easy to scale, chips/cookie are each available at higher tiers.  Assorted by
+  default
 - Variety is important.  Most sandwiches are effectively a "pile of meat"
 - Provides toppings on the side
 - Provides plates/napkins
@@ -19,7 +20,8 @@ Ohio City Burrito (OCB)
 
 - No special catering menu, or pricing
 - No plates/napkins provided
-- Rather painful to order from (several phone calls/emails required, slow response time)
+- Rather painful to order from (several phone calls/emails required, slow
+  response time)
 - Burrito prices are not bad, at ~$6, reguardless of meat/guac
 - Offers guac
 - Relatively far away
@@ -40,7 +42,8 @@ Bon Appétit (BA)
 -------------------------
 
 - Don't write them off!
-- Dead simple to order from: email with time, place, and quantity.  Pay with campus speedtype
+- Dead simple to order from: email with time, place, and quantity.  Pay with
+  campus speedtype
 - Can order on very short time frame
 - They will do setup and teardown
 - Is quite expensive
