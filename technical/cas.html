@@ -1,0 +1,765 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CAS &mdash; Hacker Society 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Hacker Society 1.0 documentation" href="../index.html"/>
+        <link rel="up" title="Technical Documentation" href="index.html"/>
+        <link rel="next" title="HacSoc Blog Directory" href="../directory.html"/>
+        <link rel="prev" title="Technical Documentation" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Hacker Society
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../organizational/index.html">Organizational Documentation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Technical Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">CAS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#using-cas">Using CAS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#frequently-asked-questions">Frequently Asked Questions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#why-do-i-need-to-change-my-password-before-i-can-log-in">Why do I need to change my password before I can log in?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#why-should-i-close-my-browser-when-i-am-done">Why should I close my browser when I am done?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#authentication-versus-authorization">Authentication versus authorization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc">How do I obtain the user&#8217;s name, status, etc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas">Why should I change my existing service to use CAS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#contact">Contact</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#web-sites-and-applications-using-cas">Web Sites and Applications Using CAS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#deployed">Deployed</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#how-cas-works">How CAS Works</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#basic-overview">Basic overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#detailed-overview">Detailed overview</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cas-implementation-best-practices">CAS Implementation Best Practices</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#use-caching">Use Caching</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#don-t-log-the-user-out-of-cas">Don&#8217;t Log the User out of CAS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#configuring-applications-to-use-cas">Configuring Applications to Use CAS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#using-apache">Using Apache</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#iis">IIS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#php">PHP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#perl">Perl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#java">Java</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ruby-ruby-on-rails">Ruby / Ruby on Rails</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#django">Django</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../directory.html">HacSoc Blog Directory</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Hacker Society</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Technical Documentation</a> &raquo;</li>
+      
+    <li>CAS</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/technical/cas.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="cas">
+<h1><a class="toc-backref" href="#id1">CAS</a><a class="headerlink" href="#cas" title="Permalink to this headline">¶</a></h1>
+<p>Case has deployed JA-SIG&#8217;s <a class="reference external" href="https://jasig.github.io/cas/4.1.x/index.html">Central Authentication
+Service</a>, or CAS,
+to allow services to easily authenticate users. The service entered
+production use on September 6, 2005.</p>
+<p><strong>Please Note:</strong> This article has been created from an archived copy of the CAS
+article from wiki.case.edu.  Although it has been lightly edited, you can expect
+that many of the links are dead, and some of the information is outdated.  I&#8217;ve
+tried to keep as much information intact as possible, but I have removed some
+sections and updated some links.</p>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#cas" id="id1">CAS</a><ul>
+<li><a class="reference internal" href="#using-cas" id="id2">Using CAS</a></li>
+<li><a class="reference internal" href="#frequently-asked-questions" id="id3">Frequently Asked Questions</a><ul>
+<li><a class="reference internal" href="#why-do-i-need-to-change-my-password-before-i-can-log-in" id="id4">Why do I need to change my password before I can log in?</a></li>
+<li><a class="reference internal" href="#why-should-i-close-my-browser-when-i-am-done" id="id5">Why should I close my browser when I am done?</a></li>
+<li><a class="reference internal" href="#authentication-versus-authorization" id="id6">Authentication versus authorization</a></li>
+<li><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc" id="id7">How do I obtain the user&#8217;s name, status, etc</a></li>
+<li><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas" id="id8">Why should I change my existing service to use CAS</a></li>
+<li><a class="reference internal" href="#contact" id="id9">Contact</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#web-sites-and-applications-using-cas" id="id10">Web Sites and Applications Using CAS</a><ul>
+<li><a class="reference internal" href="#deployed" id="id11">Deployed</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-cas-works" id="id12">How CAS Works</a><ul>
+<li><a class="reference internal" href="#basic-overview" id="id13">Basic overview</a></li>
+<li><a class="reference internal" href="#detailed-overview" id="id14">Detailed overview</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cas-implementation-best-practices" id="id15">CAS Implementation Best Practices</a><ul>
+<li><a class="reference internal" href="#use-caching" id="id16">Use Caching</a></li>
+<li><a class="reference internal" href="#don-t-log-the-user-out-of-cas" id="id17">Don&#8217;t Log the User out of CAS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configuring-applications-to-use-cas" id="id18">Configuring Applications to Use CAS</a><ul>
+<li><a class="reference internal" href="#using-apache" id="id19">Using Apache</a><ul>
+<li><a class="reference internal" href="#apache-1" id="id20">Apache 1</a></li>
+<li><a class="reference internal" href="#apache-2" id="id21">Apache 2</a></li>
+<li><a class="reference internal" href="#apache-2-2" id="id22">Apache 2.2</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#iis" id="id23">IIS</a></li>
+<li><a class="reference internal" href="#php" id="id24">PHP</a><ul>
+<li><a class="reference internal" href="#case-cas-module" id="id25">Case CAS Module</a></li>
+<li><a class="reference internal" href="#phpcas" id="id26">phpCAS</a></li>
+<li><a class="reference internal" href="#example-php-script" id="id27">Example PHP Script</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#perl" id="id28">Perl</a></li>
+<li><a class="reference internal" href="#java" id="id29">Java</a></li>
+<li><a class="reference internal" href="#ruby-ruby-on-rails" id="id30">Ruby / Ruby on Rails</a></li>
+<li><a class="reference internal" href="#django" id="id31">Django</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="using-cas">
+<h2><a class="toc-backref" href="#id2">Using CAS</a><a class="headerlink" href="#using-cas" title="Permalink to this headline">¶</a></h2>
+<p>Users can log into CAS at <a class="reference external" href="https://login.case.edu/cas/">https://login.case.edu/cas/</a>. Users can log out of CAS
+at <a class="reference external" href="https://login.case.edu/cas/logout">https://login.case.edu/cas/logout</a>. If a user logs into CAS, he or she can be
+logged in to any application that participates in the service without again
+specifying his or her password for a period of up to 8 hours.  Most users do not
+visit login.case.edu directly, but instead they are typically redirected there
+by client applications.  This process is described below.</p>
+</div>
+<div class="section" id="frequently-asked-questions">
+<h2><a class="toc-backref" href="#id3">Frequently Asked Questions</a><a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="why-do-i-need-to-change-my-password-before-i-can-log-in">
+<h3><a class="toc-backref" href="#id4">Why do I need to change my password before I can log in?</a><a class="headerlink" href="#why-do-i-need-to-change-my-password-before-i-can-log-in" title="Permalink to this headline">¶</a></h3>
+<p>CAS integrates with the university&#8217;s password policy requirements. If your
+password is expired and you attempt to log in, CAS will inform you of such. You
+will be given a link to change your password.</p>
+</div>
+<div class="section" id="why-should-i-close-my-browser-when-i-am-done">
+<h3><a class="toc-backref" href="#id5">Why should I close my browser when I am done?</a><a class="headerlink" href="#why-should-i-close-my-browser-when-i-am-done" title="Permalink to this headline">¶</a></h3>
+<p>When you log in to CAS, a cookie is stored in your browser that allows you to be
+automatically logged in to other sites. This cookie is set to expire at the end
+of your browser&#8217;s session. So, when you close your browser, this cookie no
+longer exists and you can no longer be automatically be logged in to any more
+sites without specifying your password again.</p>
+<p>It is possible to log out of CAS by visiting <a class="reference external" href="https://login.case.edu/cas/logout">https://login.case.edu/cas/logout</a>,
+however, this is not a secure form of logging out! Some sites may still have you
+recorded as logged in through the use of cookies on those specific
+sites. Closing your browser is the easiest way to guarantee that the next user
+of a computer will not be surfing the web under your identity.</p>
+</div>
+<div class="section" id="authentication-versus-authorization">
+<h3><a class="toc-backref" href="#id6">Authentication versus authorization</a><a class="headerlink" href="#authentication-versus-authorization" title="Permalink to this headline">¶</a></h3>
+<p>When you access content, there are two phases you must go through to be allowed
+to access it: authentication and authorization. Authentication is proving that
+you are who you say you are. Authorization is determining whether a proven
+person is <em>authoriz</em>ed to access something. CAS handles authentication. By
+logging in to CAS, CAS can authenticate your identity to participating services
+because you have authenticated yourself to CAS and CAS is trusted by the
+services that use it. CAS does not handle authorization to individual
+services. It is up to the individual services to determine if a user is allowed
+to access them.</p>
+</div>
+<div class="section" id="how-do-i-obtain-the-user-s-name-status-etc">
+<h3><a class="toc-backref" href="#id7">How do I obtain the user&#8217;s name, status, etc</a><a class="headerlink" href="#how-do-i-obtain-the-user-s-name-status-etc" title="Permalink to this headline">¶</a></h3>
+<p>CAS merely authenticates a user. All the services know is that a username,
+<em>abc123</em> is accessing their site. CAS does not provide information about users
+to accessed services. However, all is not lost.  This information is contained
+within the university&#8217;s LDAP server. It is possible for end-services to query
+the LDAP server for information about these users to control and customize
+service behavior.  Some examples are displaying the user&#8217;s name, filtering
+content based upon user&#8217;s role within the university (student, staff, faculty,
+etc), grade level of student (freshmen, sophomore, junior, senior, etc).</p>
+</div>
+<div class="section" id="why-should-i-change-my-existing-service-to-use-cas">
+<h3><a class="toc-backref" href="#id8">Why should I change my existing service to use CAS</a><a class="headerlink" href="#why-should-i-change-my-existing-service-to-use-cas" title="Permalink to this headline">¶</a></h3>
+<p>The simple answer: supplying your password to log in all the time is
+annoying. Wouldn&#8217;t it be convenient to just type your password once every eight
+hours and be done with it? Besides, the fewer times users need the password, the
+more incentive there is for them to chose a better, more difficult to break,
+takes longer to type password.</p>
+</div>
+<div class="section" id="contact">
+<h3><a class="toc-backref" href="#id9">Contact</a><a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h3>
+<p>It appears that the email address <a class="reference external" href="mailto:sso-admin&#37;&#52;&#48;case&#46;edu">sso-admin<span>&#64;</span>case<span>&#46;</span>edu</a> may be able to help, but
+this info comes from an old Case Wiki page that may be outdated.</p>
+</div>
+</div>
+<div class="section" id="web-sites-and-applications-using-cas">
+<h2><a class="toc-backref" href="#id10">Web Sites and Applications Using CAS</a><a class="headerlink" href="#web-sites-and-applications-using-cas" title="Permalink to this headline">¶</a></h2>
+<p>If you maintain a website that uses CAS, please add your site to the list
+below. The sites are listen in chronological order (at least for now).</p>
+<div class="section" id="deployed">
+<h3><a class="toc-backref" href="#id11">Deployed</a><a class="headerlink" href="#deployed" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Case Wiki - wiki.case.edu (since September 6, 2005) (no longer available)</li>
+<li><a class="reference external" href="http://blog.case.edu">Blogs&#64;Case</a> (since September 6, 2005)</li>
+<li><a class="reference external" href="http://its-services.case.edu">ITS Services</a> (since September 6, 2005)</li>
+<li>Shibboleth (since September 6, 2005)</li>
+<li><a class="reference external" href="http://usg.case.edu/funding/">USG Funding System</a> (since September 8, 2005)</li>
+<li><a class="reference external" href="http://bookswap.case.edu/acct/">Bookswap Account Status</a> (since September 9, 2005)</li>
+<li><a class="reference external" href="https://softwarecenter.case.edu">Software Center</a> (Since September 29, 2005)</li>
+<li><a class="reference external" href="http://lists.case.edu">Lists&#64;Case</a> (since October of 2005)</li>
+<li><a class="reference external" href="http://photos.case.edu">Case Screensaver Web Interface</a> (since October of 2005)</li>
+<li>Schedule.case.edu (since November 18, 2005) (not a thing anymore)</li>
+<li><a class="reference external" href="http://studentaffairs.case.edu">Student Affairs</a> and all related sites (since February 16, 2006)</li>
+<li><a class="reference external" href="http://blackboard.case.edu">Blackboard</a> (since February 16, 2006)</li>
+</ul>
+<p>Probably a lot more by now.  Really, pretty much every web application at CWRU
+is integrated with CAS.</p>
+</div>
+</div>
+<div class="section" id="how-cas-works">
+<h2><a class="toc-backref" href="#id12">How CAS Works</a><a class="headerlink" href="#how-cas-works" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="basic-overview">
+<h3><a class="toc-backref" href="#id13">Basic overview</a><a class="headerlink" href="#basic-overview" title="Permalink to this headline">¶</a></h3>
+<p>When a user accesses a site that uses CAS, that site redirects the user to CAS
+(login.case.edu). Once CAS has verified a user&#8217;s identity, it forwards them back
+to the original site. CAS attaches a unique ticket number to the URL of the
+protected service. The protected service sees this ticket. It sends this ticket
+to CAS. CAS tells the protected service whether the ticket is good and if so,
+the Case ID that was used to obtain the ticket. The protected service reacts
+accordingly, allowing access if the ticket is good.</p>
+</div>
+<div class="section" id="detailed-overview">
+<h3><a class="toc-backref" href="#id14">Detailed overview</a><a class="headerlink" href="#detailed-overview" title="Permalink to this headline">¶</a></h3>
+<p>When you log into CAS at <a class="reference external" href="https://login.case.edu/cas/">https://login.case.edu/cas/</a>, a cookie is saved in your
+browser. This cookie contains a unique ticket number that identifies you to the
+CAS server. Every time you access <a class="reference external" href="https://login.case.edu">https://login.case.edu</a> after you are logged
+in, your browser automatically transmits this cookie to the web server. CAS
+reads the cookie, looks up the ticket in its database, and identifies you.</p>
+<p>CAS clients behave a little differently. Say you access
+<a class="reference external" href="http://blog.case.edu/mt/mt-cas.cgi">http://blog.case.edu/mt/mt-cas.cgi</a>. When you load up that page, the page
+requires that you be logged into CAS to access it. How does this work?  The page
+redirects you to</p>
+<p><code class="docutils literal"><span class="pre">https://login.case.edu/cas/login?service=http://blog.case.edu/mt/mt-cas.cgi</span></code></p>
+<p>via an HTTP Location header. Once CAS has verified you are logged in, it sends
+you back to the URL specified in the <em>service</em> parameter, in this case
+<a class="reference external" href="http://blog.case.edu/mt/mt-cas.cgi">http://blog.case.edu/mt/mt-cas.cgi</a>. There is, however, one small change. CAS
+appends a service ticket to the URL, like</p>
+<p><code class="docutils literal"><span class="pre">`http://blog.case.edu/mt/mt-cas.cgi?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc</span></code></p>
+<p>The CAS client sees that the <em>ticket</em> parameter is defined and knows the
+user has just come from <a class="reference external" href="https://login.case.edu">https://login.case.edu</a>. The CAS client then
+queries</p>
+<p><code class="docutils literal"><span class="pre">https://login.case.edu/cas/serviceValidate?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc&amp;service=http://blog.case.edu/mt/mt-cas.cgi</span></code></p>
+<p>The CAS server replies with an XML document that describes the service
+ticket. Some of the values returned include whether the ticket is good
+and the username associated with the ticket. Alternatively, the CAS
+client can query</p>
+<p><code class="docutils literal"><span class="pre">https://login.case.edu/cas/validate?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc&amp;service=http://blog.case.edu/mt/mt-cas.cgi</span></code></p>
+<p>This will return a two line document. The first line will say <em>yes</em> or
+<em>no</em>. The next line (only present if the first line is <em>yes</em>) will be
+the username associated with the ticket.</p>
+<p>In short, when a user requests access to an application that is
+CASified, that user gets whisked away to the CAS server. Once they are
+logged in, the client is returned to the application with a unique
+service ticket. This is a personalized ticket, good for only one use,
+and a short period of time that will gain you access into the
+application. The CAS client verifies this ticket by talking to the CAS
+server and if everything checks out, it lets you in.</p>
+</div>
+</div>
+<div class="section" id="cas-implementation-best-practices">
+<h2><a class="toc-backref" href="#id15">CAS Implementation Best Practices</a><a class="headerlink" href="#cas-implementation-best-practices" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="use-caching">
+<h3><a class="toc-backref" href="#id16">Use Caching</a><a class="headerlink" href="#use-caching" title="Permalink to this headline">¶</a></h3>
+<p>Many of the clients listed below use some form of caching. Without
+caching, the CAS client will redirect the user to the CAS server for
+every request to obtain a new service ticket. This places more load on
+not only the CAS server, but your web server as well. Also, it takes a
+little longer for every page access to load because the user has to
+process 3 HTTP requests and your web server has to verify the ticket
+with the CAS server. Assuming a negligible page load time under normal
+conditions, it takes about 5x longer to view a page.</p>
+<p>To eliminate this bottleneck, you should store a cookie on the client&#8217;s
+browser that tells your server that they are logged in. This cookie
+should contain a ticket that you can map to a user. Most CAS clients do
+this transparently. Some clients, such as the PHP client, store this
+information in the user&#8217;s $_SESSION.</p>
+</div>
+<div class="section" id="don-t-log-the-user-out-of-cas">
+<h3><a class="toc-backref" href="#id17">Don&#8217;t Log the User out of CAS</a><a class="headerlink" href="#don-t-log-the-user-out-of-cas" title="Permalink to this headline">¶</a></h3>
+<p>Some CAS clients have a logoff function that will actually log the user
+out of CAS. This should be avoided! Don&#8217;t confuse local application
+logoff and CAS logoff. If the user logs out of the local application,
+they are simply transitioning from registered user mode to anonymous
+user mode. If a user logs out of CAS, they will be forced to supply
+their username and password again. A simple way to check for logging out
+of CAS is to look for a request to <a class="reference external" href="https://login.case.edu/cas/logout">https://login.case.edu/cas/logout</a>. If
+this URL is accessed by a client, they will be logged out of CAS.</p>
+</div>
+</div>
+<div class="section" id="configuring-applications-to-use-cas">
+<h2><a class="toc-backref" href="#id18">Configuring Applications to Use CAS</a><a class="headerlink" href="#configuring-applications-to-use-cas" title="Permalink to this headline">¶</a></h2>
+<p>CAS is being used because it supports many clients for authentication. A
+fairly complete list of clients is
+<a class="reference external" href="https://jasig.github.io/cas/4.1.x/integration/CAS-Clients.html">available</a>.
+To use CAS for authentication, you need to know the following
+parameters:</p>
+<ul class="simple">
+<li><strong>Host</strong>: <a class="reference external" href="https://login.case.edu">https://login.case.edu</a></li>
+<li><strong>Context</strong>: /cas/</li>
+<li><strong>Login URL</strong>: <a class="reference external" href="https://login.case.edu/cas/login">https://login.case.edu/cas/login</a></li>
+<li><strong>Logout URL</strong>: <a class="reference external" href="https://login.case.edu/cas/logout">https://login.case.edu/cas/logout</a></li>
+<li><strong>Validate URL</strong>: <a class="reference external" href="https://login.case.edu/cas/validate">https://login.case.edu/cas/validate</a> (CAS protocol
+version 1)</li>
+<li><strong>Service Validate URL</strong>: <a class="reference external" href="https://login.case.edu/cas/serviceValidate">https://login.case.edu/cas/serviceValidate</a>
+(CAS protocol version 2)</li>
+<li><strong>Running Version</strong>: 2.0</li>
+<li><strong>CAS Protocol Versions Supported</strong>: 1 and 2</li>
+</ul>
+<p>If one the following clients does not work or does not apply to you, you
+may wish to create your own CAS client. This is relatively simple
+because CAS operates over HTTP and the protocol is relatively simple.
+Consulting the <a class="reference external" href="https://jasig.github.io/cas/4.1.x/protocol/CAS-Protocol.html">CAS
+protocol</a>
+is a necessary step to properly design a client.</p>
+<p>Some clients, such as the Apache modules, require that the certificate used by
+the login server to be verified. For these, you need to obtain the public
+certificate for the Certificate Authority for <a class="reference external" href="https://login.case.edu">https://login.case.edu</a>. The
+certificate authority is Entrust Server CA and its public certificate can be
+found below under the Apache 2 instructions.</p>
+<div class="section" id="using-apache">
+<h3><a class="toc-backref" href="#id19">Using Apache</a><a class="headerlink" href="#using-apache" title="Permalink to this headline">¶</a></h3>
+<p>A module, mod_cas, is available for Apache 1 and 2 to do CAS
+authentication. A Perl auth module is also available as an alternative.</p>
+<div class="section" id="apache-1">
+<h4><a class="toc-backref" href="#id20">Apache 1</a><a class="headerlink" href="#apache-1" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="apache-2">
+<h4><a class="toc-backref" href="#id21">Apache 2</a><a class="headerlink" href="#apache-2" title="Permalink to this headline">¶</a></h4>
+<p>Although the version of mod_cas distributed as part of the CAS client
+package is usable, we recommend the use of our custom mod_cas module.
+The advantages of our module are that configuration options for the
+module are not compiled into the module. Also, we have modified the
+module to work with our modified mod_auth_ldap, which can return
+dynamic groups from LDAP.</p>
+<p>The source code for our module can be found at
+<a class="reference external" href="https://its-services.case.edu/middleware/src/mod_cas_Apache2.tar.gz">https://its-services.case.edu/middleware/src/mod_cas_Apache2.tar.gz</a>. The
+development for this module occurs at
+<a class="reference external" href="http://opensource.case.edu/projects/CAS/">http://opensource.case.edu/projects/CAS/</a>.</p>
+<p>Extract the contents of this archive anywhere in your filesystem. cd to
+the <strong>apache2</strong> directory. Edit the following values in <strong>Makefile</strong>:</p>
+<ul class="simple">
+<li>top_srcdir</li>
+<li>top_builddir</li>
+<li>srcdir</li>
+<li>builddir</li>
+<li>VPATH</li>
+</ul>
+<p>The values for <em>top_srcdir</em> and <em>top_builddir</em> are the path to Apache
+2&#8217;s source tree will most likely be identical. An example value would be
+<em>/usr/local/src/httpd-2.0.54</em></p>
+<p>The values for <em>srcdir</em>, <em>builddir</em>, and <em>VPATH</em> will most likely all be
+<strong>./</strong></p>
+<p>The module is compiled and installed by running</p>
+<div class="code bash highlight-python"><div class="highlight"><pre>make mod_cas.la
+make install-modules
+</pre></div>
+</div>
+<p>Alternatively, you can compile the module using
+<a class="reference external" href="http://httpd.apache.org/docs/2.0/programs/apxs.html">apxs</a>. Run the
+following to compile and copy the module to your Apache module
+directory:</p>
+<div class="code bash highlight-python"><div class="highlight"><pre>/path/to/apxs -i -c mod_cas.c ssl_client.c
+</pre></div>
+</div>
+<p>Once the module is installed, you need to edit your Apache config file
+(usually <em>httpd.conf</em>) and add the following:</p>
+<div class="code apache highlight-python"><div class="highlight"><pre>LoadModule cas_module usr/lib/apache2/mod_cas.so
+CASLoginURL https://login.case.edu/cas/login
+CASHost login.case.edu
+CASValidate /cas/validate
+CASTrustedCerts /path/to/entrust.crt
+#CASDebug On
+
+CASLocalCacheFile /path/to/cas/cache
+CASLocalCacheSize 1000
+CASLocalCacheTimeout 7200
+CASLocalCacheInsecure Off
+</pre></div>
+</div>
+<p>The <strong>CasTrustedCerts</strong> directive should point to a file containing the public
+certificate of the Certificate Authority for the CAS server. It is recommended
+to create a file with the following contents:</p>
+<div class="highlight-python"><div class="highlight"><pre>-----BEGIN CERTIFICATE-----
+MIIE2DCCBEGgAwIBAgIEN0rSQzANBgkqhkiG9w0BAQUFADCBwzELMAkGA1UEBhMC
+VVMxFDASBgNVBAoTC0VudHJ1c3QubmV0MTswOQYDVQQLEzJ3d3cuZW50cnVzdC5u
+ZXQvQ1BTIGluY29ycC4gYnkgcmVmLiAobGltaXRzIGxpYWIuKTElMCMGA1UECxMc
+KGMpIDE5OTkgRW50cnVzdC5uZXQgTGltaXRlZDE6MDgGA1UEAxMxRW50cnVzdC5u
+ZXQgU2VjdXJlIFNlcnZlciBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw05OTA1
+MjUxNjA5NDBaFw0xOTA1MjUxNjM5NDBaMIHDMQswCQYDVQQGEwJVUzEUMBIGA1UE
+ChMLRW50cnVzdC5uZXQxOzA5BgNVBAsTMnd3dy5lbnRydXN0Lm5ldC9DUFMgaW5j
+b3JwLiBieSByZWYuIChsaW1pdHMgbGlhYi4pMSUwIwYDVQQLExwoYykgMTk5OSBF
+bnRydXN0Lm5ldCBMaW1pdGVkMTowOAYDVQQDEzFFbnRydXN0Lm5ldCBTZWN1cmUg
+U2VydmVyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIGdMA0GCSqGSIb3DQEBAQUA
+A4GLADCBhwKBgQDNKIM0VBuJ8w+vN5Ex/68xYMmo6LIQaO2f55M28Qpku0f1BBc/
+I0dNxScZgSYMVHINiC3ZH5oSn7yzcdOAGT9HZnuMNSjSuQrfJNqc1lB5gXpa0zf3
+wkrYKZImZNHkmGw6AIr1NJtl+O3jEP/9uElY3KDegjlrgbEWGWG5VLbmQwIBA6OC
+AdcwggHTMBEGCWCGSAGG+EIBAQQEAwIABzCCARkGA1UdHwSCARAwggEMMIHeoIHb
+oIHYpIHVMIHSMQswCQYDVQQGEwJVUzEUMBIGA1UEChMLRW50cnVzdC5uZXQxOzA5
+BgNVBAsTMnd3dy5lbnRydXN0Lm5ldC9DUFMgaW5jb3JwLiBieSByZWYuIChsaW1p
+dHMgbGlhYi4pMSUwIwYDVQQLExwoYykgMTk5OSBFbnRydXN0Lm5ldCBMaW1pdGVk
+MTowOAYDVQQDEzFFbnRydXN0Lm5ldCBTZWN1cmUgU2VydmVyIENlcnRpZmljYXRp
+b24gQXV0aG9yaXR5MQ0wCwYDVQQDEwRDUkwxMCmgJ6AlhiNodHRwOi8vd3d3LmVu
+dHJ1c3QubmV0L0NSTC9uZXQxLmNybDArBgNVHRAEJDAigA8xOTk5MDUyNTE2MDk0
+MFqBDzIwMTkwNTI1MTYwOTQwWjALBgNVHQ8EBAMCAQYwHwYDVR0jBBgwFoAU8Bdi
+E1U9s/8KAGv7UISX8+1i0BowHQYDVR0OBBYEFPAXYhNVPbP/CgBr+1CEl/PtYtAa
+MAwGA1UdEwQFMAMBAf8wGQYJKoZIhvZ9B0EABAwwChsEVjQuMAMCBJAwDQYJKoZI
+hvcNAQEFBQADgYEAkNwwAvpkdMKnCqV8IY00F6j7Rw7/JXyNEwr75Ji174z4xRAN
+95K+8cPV1ZVqBLssziY2ZcgxxufuP+NXdYR6Ee9GTxj005i7qIcyunL2POI9n9cd
+2cNgQ4xYDiKWL2KjLB+6rQXvqzJ4h6BUcxm1XAX5Uj5tLUUL9wqT6u0G+bI=
+-----END CERTIFICATE-----
+</pre></div>
+</div>
+<p>and set this directive to point to that file.</p>
+<p>You can use the <em>CASDebug</em> directive to allow extra debugging to the
+Apache log for testing purposes. For <em>CASLocalCacheFile</em>, create a blank
+file and set its permissions so the Apache user can write to this file.</p>
+<p>To protect a specific directory to require CAS authentication, just use
+AuthType CAS. For example:</p>
+<div class="code apache highlight-python"><div class="highlight"><pre>&lt;Location &quot;/cas-protected/&quot;&gt;
+    AuthType CAS
+    AuthName &quot;CAS&quot;
+    require valid-user
+&lt;/Location&gt;
+</pre></div>
+</div>
+<p>By default, the CAS module will handle authentication and authorization.
+If you have another module that you would like to process authorization,
+such as mod_auth_ldap, you need to tell mod_cas to defer to that
+module. This is done by adding the directive <strong>CASAuthenticateOnly On</strong>
+to either the global httpd.conf file or in any , , , or .htaccess
+location. You can set <strong>CASDebug On</strong> and view the Apache error log to
+verify everything is working as it should.</p>
+</div>
+<div class="section" id="apache-2-2">
+<h4><a class="toc-backref" href="#id22">Apache 2.2</a><a class="headerlink" href="#apache-2-2" title="Permalink to this headline">¶</a></h4>
+<p>The Apache 2.0 module is not compatible with Apache 2.2 due to Apache API
+changes. Gregory Szorc will be working on writing a CAS module for Apache
+2.2. If you have an urgent need for this module, let him know.</p>
+</div>
+</div>
+<div class="section" id="iis">
+<h3><a class="toc-backref" href="#id23">IIS</a><a class="headerlink" href="#iis" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://jasigch.princeton.edu:9000/display/CAS/ISAPI+Filter">CAS ISAPI filter for ISS</a>
+(<em>dead link, sorry</em>)</li>
+<li><a class="reference external" href="http://gcx1.mygcx.org/cas/CCCIChanges.html">CCCI CAS</a>
+alternative plugin for ISS/Apache (see
+<a class="reference external" href="http://gcx1.mygcx.org/cas/web-server-agent/doc/CasAgentDoc.html">documentation</a>)
+(<em>also dead links</em>)</li>
+</ul>
+<p><em>These filters are not well supported, and may not even work at all. If
+you are successful in implementing any ISAPI filters, please add
+instructions for doing so here.</em></p>
+</div>
+<div class="section" id="php">
+<h3><a class="toc-backref" href="#id24">PHP</a><a class="headerlink" href="#php" title="Permalink to this headline">¶</a></h3>
+<p>There are two PHP libraries that can be used with CAS at Case. The Case CAS
+Module is very simple. It requires PHP 5 to run.  phpCAS supports all the bells
+and whistles of CAS, but requires a little more setup.</p>
+<div class="section" id="case-cas-module">
+<h4><a class="toc-backref" href="#id25">Case CAS Module</a><a class="headerlink" href="#case-cas-module" title="Permalink to this headline">¶</a></h4>
+<p>Information about this module is available at
+<a class="reference external" href="http://opensource.case.edu/projects/CaseClasses/">http://opensource.case.edu/projects/CaseClasses/</a>. The source code is
+available at
+<a class="reference external" href="http://opensource.case.edu/svn/CaseClasses/php/trunk/Case/Authn/CAS.php">http://opensource.case.edu/svn/CaseClasses/php/trunk/Case/Authn/CAS.php</a>.</p>
+<p><strong>Note:</strong> Both links above are dead.  Updated sources for the Case CAS module
+(if it still exists) would be very much appreciated.</p>
+<p>Sample usage:</p>
+<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;Case/Authn/CAS.php&#39;);
+$cas = new Case_Authn_CAS();
+$cas-&gt;forceAuthentication();
+$CaseID = $cas-&gt;getCaseID();
+</pre></div>
+</div>
+<p>or</p>
+<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;Case/Authn/CAS.php&#39;);
+$cas = new Case_Authn_CAS();
+$cas-&gt;checkAuthentication();
+
+if ($cas-&gt;isLoggedIn()) {
+  //the user is known to be logged in
+  //do whatever you want with them
+}
+</pre></div>
+</div>
+</div>
+<div class="section" id="phpcas">
+<h4><a class="toc-backref" href="#id26">phpCAS</a><a class="headerlink" href="#phpcas" title="Permalink to this headline">¶</a></h4>
+<p>You can use <a class="reference external" href="http://esup-phpcas.sourceforge.net/">phpCAS</a>, a CAS PHP
+library to perform CAS authentication within your PHP applications.</p>
+<p>To install phpCAS, download phpCAS, extract the contents of the archive,
+and copy <em>source/CAS</em> to somewhere in PHP&#8217;s <em>include_path</em>. In your PHP
+application, use the following to set up your CAS client:</p>
+<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;CAS/CAS.php&#39;);
+
+phpCAS::client(CAS_VERSION_2_0,&#39;login.case.edu&#39;,443,&#39;/cas&#39;);
+</pre></div>
+</div>
+<p>The creation of the phpCAS client automatically calls session_start
+unless the 5th parameter of the function is <em>false</em>. If your session is
+already started, this will issue a PHP warning.</p>
+<p>To force the user to be logged in, execute the following statement:</p>
+<div class="code php highlight-python"><div class="highlight"><pre>phpCAS::forceAuthentication();
+</pre></div>
+</div>
+<p>If you need to obtain the person&#8217;s network ID, use:</p>
+<div class="code php highlight-python"><div class="highlight"><pre>$NetID = phpCAS::getUser();
+</pre></div>
+</div>
+<p>More documentation is availabe at the library&#8217;s web site.</p>
+<p><strong>Do not use *phpCAS::logout()* in your script, as it will log the user
+out of CAS</strong>. Instead, you can perform a local logout by manipulating
+$_SESSION variables or cookies.</p>
+</div>
+<div class="section" id="example-php-script">
+<h4><a class="toc-backref" href="#id27">Example PHP Script</a><a class="headerlink" href="#example-php-script" title="Permalink to this headline">¶</a></h4>
+<div class="code php highlight-python"><div class="highlight"><pre>&lt;?php
+
+//initialize the CAS library
+require_once(&#39;CAS/CAS.php&#39;);
+phpCAS::client(CAS_VERSION_2_0, &#39;login.case.edu&#39;, 443, &#39;/cas&#39;);
+
+//if the user is requesting to be logged in
+if (isset($_REQUEST[&#39;login&#39;])) {
+   phpCAS::forceAuthentication();
+   //the user is known to be logged in to CAS at this point
+   $_SESSION[&#39;loggedInLocally&#39;] = true;  //set a local variable telling the program we are logged in
+   $_SESSION[&#39;username&#39;] = phpCAS::getUser();  //this stores their network user id
+}
+
+//if we want to log out of the program
+if (isset($_REQUEST[&#39;logout&#39;])) {
+   $_SESSION[&#39;loggedInLocally&#39;] = false;
+   unset($_SESSION[&#39;username&#39;]);
+}
+
+if (isset($_SESSION[&#39;loggedinLocally&#39;]) &amp;&amp; $_SESSION[&#39;loggedInLocally&#39;]===true) {
+   echo &quot;You are logged in to the application&quot;;
+} else {
+   echo &quot;You are not logged in to the application.  Log in by specifying the &#39;login&#39; log parameter to this script.&quot;;
+}
+
+?&gt;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="perl">
+<h3><a class="toc-backref" href="#id28">Perl</a><a class="headerlink" href="#perl" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference external" href="http://sourcesup.cru.fr/perlcas/">http://sourcesup.cru.fr/perlcas/</a>.  Link is dead, search for perlCAS may dig
+something up.</p>
+</div>
+<div class="section" id="java">
+<h3><a class="toc-backref" href="#id29">Java</a><a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference external" href="http://jasigch.princeton.edu:9000/display/CAS/Java+Client">http://jasigch.princeton.edu:9000/display/CAS/Java+Client</a>.  Link is dead!
+If you use CAS with Java and find an appropriate resource, please update this
+wiki with it!</p>
+</div>
+<div class="section" id="ruby-ruby-on-rails">
+<h3><a class="toc-backref" href="#id30">Ruby / Ruby on Rails</a><a class="headerlink" href="#ruby-ruby-on-rails" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/rubycas">RubyCAS</a> has a client and server implementation.
+For integrating with Case CAS, you are interested only in the client
+implementation.</p>
+</div>
+<div class="section" id="django">
+<h3><a class="toc-backref" href="#id31">Django</a><a class="headerlink" href="#django" title="Permalink to this headline">¶</a></h3>
+<p>Most modules for CAS in Django are named &#8220;django-cas&#8221; or something similar, so
+they&#8217;re rather difficult to tell apart.  Here are a couple distinct ones, you&#8217;ll
+have to try a couple out and see which ones work for you.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/castlabs/django-cas">django-cas</a></li>
+<li><a class="reference external" href="https://github.com/KTHse/django-cas2">django-cas2</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../directory.html" class="btn btn-neutral float-right" title="HacSoc Blog Directory" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Technical Documentation" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Hacker Society.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
