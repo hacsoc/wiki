@@ -20,6 +20,8 @@ Active Members
 - Andrew Mason: http://ajm188.github.io
 - Matthew Bentley: http://bentley.link
 - Katherine Cass: http://katherinecass.me
+- David Aghassi: http://aghassi.github.io
+
 Alumni
 ------
 
