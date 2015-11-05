@@ -107,7 +107,7 @@ Rules for Hacker Society Lectures
    right to reject any talk not fitting with the mission of Hacker Society or
    which is deemed to be in bad taste. Hacker Society is not a forum for hate
    speech or other such language.
-2. Recruiting talks or "information pitches" are not allowed. All talks are
+2. Recruiting talks or "information sessions" are not allowed. All talks are
    expected to be technical.
 3. Recruiting pitches are limited to one slide.
 4. Lectures are expected to be conducted professionally.
