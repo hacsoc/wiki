@@ -18,10 +18,20 @@ If you'd like to contribute, you have two options:
 ### Compiling:
 
 This wiki is made using `Sphinx` documentation.  To build the wiki, you must
-first [install Sphinx](http://sphinx-doc.org/).
+first [install Sphinx](http://sphinx-doc.org/).  After `Sphinx` has been
+installed, issuing a `make html` will generate the HTML seen at
+[http://hacsoc.org/wiki/](http://hacsoc.org/wiki/).  Here are some annotated
+Bash commands for getting things installed and generating HTML on Linux:
 
-After `Sphinx` has been installed,  issuing a `make html` will generate the HTML
-seen at [http://hacsoc.org/wiki/](http://hacsoc.org/wiki/).
+```bash
+# Install Sphinx and theme in a virtualenv:
+$ virutalenv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+# Each time you'd like to generate documentation:
+$ make html
+# Generated files will be under _build/html
+```
 
 For syntax help, see [here](http://sphinx-doc.org/rest.html).  The syntax used
 is ReStructured Text, not MarkDown.
