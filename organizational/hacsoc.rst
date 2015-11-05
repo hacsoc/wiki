@@ -10,7 +10,7 @@ To promote an **open society** through *understanding* and *improving* the
 **Open Society**: An open society promotes freedom of thought and expression,
 personal responsibility, individualism, cooperation, and equality of all
 citizens.  Citizens of an open society view all institutions as human created
-and subject to scrutiny.  Institutions are service to the individual.
+and subject to scrutiny.  Institutions are in service to the individual.
 
 **Technology**: Modernity is underpinned by technology. Infrastructure
 supplying energy, transportation and communication is critical for the
