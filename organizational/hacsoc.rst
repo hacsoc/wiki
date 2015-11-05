@@ -31,7 +31,7 @@ organized by the maintainer here is how you do it. If you need money talk to
 ACM/IEEE, the EECS department, and/or invite companies to sponsor the event.
 
 1. Decide on a date and time.
-2. Decide on a location. Kim Yurchick (in the main EECS) can assist you in
+2. Decide on a location. Kim Yurchick (in the EECS office) or ACM/IEEE officers  can assist you in
    booking a room.
 3. Announce the event on hackers-discuss@case.edu and ask the Maintainer to
    announce on cwru-hackers@case.edu
@@ -129,7 +129,7 @@ Other Resources
 
 - Hacker Society `Trello Board <https://trello.com/b/Pe68BIO7>`_
 - Github org `github.com/hacsoc <https://github.com/hacsoc/>`_
-- Main Website `hacsoc.org <http://hacsoc.org>`_ `website source
+- Main Website `hacsoc.org <http://hacsoc.org>`_ `(website source)
   <https://github.com/hacsoc/hacsoc.github.com>`_
 - `Google Calendar
   <https://www.google.com/calendar/embed?src=case.edu_0migs4focp7udt4v984fojmef0%40group.calendar.google.com&ctz=America/New_York>`_
