@@ -10,6 +10,7 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
+   hacsoc
    linkstate
    ordering_food
    communications

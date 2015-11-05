@@ -5,7 +5,7 @@
 ORG=hacsoc
 REPO=wiki
 # This probably should match an email for one of your users.
-EMAIL=smb196@case.edu
+EMAIL=hacsoc-officers@case.edu
 # ^ gotta get those github contributions
 
 set -e
