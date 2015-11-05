@@ -54,7 +54,8 @@ These are volunteers who show up and make the Link-State actually Link-State:
 - Checks them in on Eventbrite. (Needs access to Eventbrite password!)
 - Gives them a T-shirt / nametag.
 
-**Facilities Assistance:** People who assist as needed with food / facilities needs:
+**Facilities Assistance:** People who assist as needed with food / facilities
+needs:
 
 - Assists in food runs for each meal.
 - Assists in setting up food.
