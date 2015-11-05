@@ -1,24 +1,17 @@
 Maintaining Hacker Society
 ===========================
 
+
 The Mission of Hacker Society
 -----------------------------
 
-To promote an **open society** through *understanding* and *improving* the
-**technology** which underpins it.
+A time and place for people to learn about technology from each other, in
+order to build a community, to empower the individual, promote equality, and
+build an open society.
 
 **Open Society**: An open society promotes freedom of thought and expression,
 personal responsibility, individualism, cooperation, and equality of all
-citizens.  Citizens of an open society view all institutions as human created
-and subject to scrutiny.  Institutions are in service to the individual.
-
-**Technology**: Modernity is underpinned by technology. Infrastructure
-supplying energy, transportation and communication is critical for the
-maintenance of society. Our infrastructure is increasingly computerized. As an
-organization we focus on computers.
-
-By understanding technology and improving it we hope to promote the ideals of
-an open society.
+citizens.
 
 
 Organizational Structure of Hacker Society
