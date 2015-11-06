@@ -31,8 +31,8 @@ organized by the maintainer here is how you do it. If you need money talk to
 ACM/IEEE, the EECS department, and/or invite companies to sponsor the event.
 
 1. Decide on a date and time.
-2. Decide on a location. Kim Yurchick (in the EECS office) or ACM/IEEE officers  can assist you in
-   booking a room.
+2. Decide on a location. Kim Yurchick (in the EECS office) or ACM/IEEE officers
+   can assist you in booking a room.
 3. Announce the event on hackers-discuss@case.edu and ask the Maintainer to
    announce on cwru-hackers@case.edu
 4. Do other forms of advertisements (such as flyers)
