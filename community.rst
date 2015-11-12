@@ -46,3 +46,30 @@ out there for their meetups.
 
 Similarly, there is the Cleveland Big Data and Hadoop User Group (CHUG for
 short).  They are also on `Meetup <http://www.meetup.com/Cleveland-Hadoop/>`_.
+
+**Other Meetups**
+
+You can find a ton of potentially interesting Meetup groups on `Meetup
+<http://www.meetup.com>`_, if you browse through Cleveland.  Here is a small
+dump of potentially interesting ones:
+
+- `Cleveland Game Developers <http://www.meetup.com/clevelandgamedev/>`_
+- `Rosetta Tech Talks <http://www.meetup.com/RosettaTechTalks/>`_
+- `Cleveland Ruby Brigade <http://www.meetup.com/ClevelandRuby/>`_
+- `Cleveland NodeSchool <http://www.meetup.com/NodeSchool-Cleveland/>`_
+- `Cleveland Web Design and Development <http://www.meetup.com/Cleveland-Web-Design-and-Development-Meetup/>`_
+- `xDD-CLE (x-Driven Development) <http://www.meetup.com/xDD-CLE/>`_
+- `Cleveland Node.js User Group <http://www.meetup.com/NodejsCleveland/>`_
+- `Cleveland JavaScript Meetup <http://www.meetup.com/Cleveland-JavaScript-Meetup/>`_
+- `We Can Code It <http://www.meetup.com/WeCanCodeIt/>`_
+- `Cleveland Dev Craft (Microsoft Stack) <http://www.meetup.com/cledevcraft/>`_
+- `GiveSec <http://www.meetup.com/GiveSec/>`_
+
+**Cleveland Tech Events**
+
+This probably should be higher up, but Cleveland Tech Events seems to be a
+really awesome website that aggregates a lot of announcements for tech related
+events, as well as links to even more resources for the CLE community.  Check it
+out:
+
+http://clevelandtechevents.com/
