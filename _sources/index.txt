@@ -14,6 +14,7 @@ Contents:
    organizational/index
    technical/index
    directory
+   community
 
 
 Indices and tables
