@@ -49,3 +49,11 @@ Bon Appétit (BA)
 - Is quite expensive
 - Coffee/Tea is a reasonable choice at $2 total per person for both
 
+Guy's Pizza
+-------------------------
+
+- Simple and Cheap
+- ~$22 for 32 piece sheet pizza and 3$ for a topping
+- Easy to pick up in Coventry, delivery also avaliable
+- No plates/napkins provided
+- Easy to order by phone at (216)-397-9700
