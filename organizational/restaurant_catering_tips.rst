@@ -54,6 +54,6 @@ Guy's Pizza
 
 - Simple and Cheap
 - ~$22 for 32 piece sheet pizza and 3$ for a topping
-- Easy to pick up in Coventry delivery also avaliable
+- Easy to pick up in Coventry, delivery also avaliable
 - No plates/napkins provided
 - Easy to order by phone at (216)-397-9700
