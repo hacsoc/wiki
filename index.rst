@@ -15,6 +15,7 @@ Contents:
    technical/index
    directory
    community
+   job_postings
 
 
 Indices and tables
