@@ -13,12 +13,13 @@ save business & funding details for private conversations if the topic
 arises.
 
 If you'd like assistance in writing a job post aimed towards students or if you
-have other questions such as expected pay or hours, contact acmpr@case.edu.
-We'd be happy to assist you so that your post gets the maximum response.
+have other questions such as expected pay or hours, contact
+hacsoc-officers@case.edu. We'd be happy to assist you so that your post gets
+the maximum response.
 
 Inappropriate job postings will be deleted. While the final decision is at the
 full discretion of the group admin, students are encouraged to report job
 postings they find inappropriate.
 
 Please be aware that many students may have strong opinions on NDAs.
-http://blog.jpl-consulting.com/…/…/why-i-wont-sign-your-nda/
+http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/
