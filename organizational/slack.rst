@@ -65,6 +65,8 @@ Rules
 - Be civil, respect other people's opinions.  Debates and disagreements are a
   normal part of working in a team.  You **must** handle these situations
   maturely.
+- Avoid notifying everyone in large channels without a very good reason.  This
+  means don't use @channel in a large channel or @everyone anywhere.
 
 Administrators have the power to restrict and disable your account, as well as
 remove you from a channel, if you are a real nuisance.  However, it will be a
