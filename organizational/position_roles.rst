@@ -1,7 +1,7 @@
 Position Roles 
 ========================
 
-Below are the positions that have allowed Hacker's Society function in the past. The
+Below are the positions that have allowed Hacker's Society to function in the past. The
 listed positions are setup to run ACM and IEEE under the umbrella of Hacker's Society.
 The given descriptions are recommendations are able to be changed as the needs of the
 organization change. Along with that additional positions can be added when need.
@@ -14,7 +14,7 @@ organization change. Along with that additional positions can be added when need
 **Vice President of ACM**
 
 - Maintain engagement with `ACM <http://www.acm.org/>`_
-- Keep involvment with CS/CE portion of the department
+- Keep involvment with CS/CE/Systems and Control portion of the department
 
 **Vice President of IEEE**
 
@@ -38,3 +38,4 @@ organization change. Along with that additional positions can be added when need
 **Secretary**
 
 - Keep minutes for general body meetings 
+- Managing access to Mailing Lists/Trello/Google Drive
