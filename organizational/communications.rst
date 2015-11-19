@@ -67,19 +67,9 @@ flexible than such simple systems. See for example the `Hacsoc Talks
 <https://trello.com/b/Pe68BIO7>`_ board. At the end of the day, do what works.
 
 Slack
------------
-`Hacsoc Slack`_ 
+-----
 
-.. _Hacsoc Slack: https://hacsoc.slack.com
-
-Is the current platform we use for chat. Organizers should have Slack easily
-accessible and should respond to messages and notifications.
-
-- Channels: ``#general``, ``#random``, and topic-focused channels
-- Devices: mobile/desktop/web
-- Direct Messages
-- Label/color convention (code project boards vs other boards)
-- Integrating a channel with Trello
+Read more about it here: :doc:`slack`.
 
 IRC
 ----------
