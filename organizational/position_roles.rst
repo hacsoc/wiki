@@ -29,7 +29,7 @@ organization change. Along with that additional positions can be added when need
 - Holds the organization credit card
 - Reimburses members
 
-**Public Relations**
+**Public Relations Chair**
 
 - Create and distrubute information within the campus community
 - Contact companies involving events and their involvement
