@@ -1,4 +1,4 @@
-Position Roles 
+ACM and IEEE Officer Roles
 ========================
 
 Below are the positions that have allowed Hacker's Society to function in the past. The
