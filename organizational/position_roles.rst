@@ -1,8 +1,8 @@
 ACM and IEEE Officer Roles
 ========================
 
-Below are the positions that have allowed Hacker's Society to function in the past. The
-listed positions are setup to run ACM and IEEE under the umbrella of Hacker's Society.
+Below are the positions that have allowed Hacker Society to function in the past. The
+listed positions are setup to run ACM and IEEE under the umbrella of Hacker Society.
 The given descriptions are recommendations are able to be changed as the needs of the
 organization change. Along with that additional positions can be added when need.
 
