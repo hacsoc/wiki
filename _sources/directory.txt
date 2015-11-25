@@ -17,7 +17,7 @@ Active Members
 
 - Tim Henderson: http://hackthology.com
 - Stephen Brennan: http://stephen-brennan.com
-- Andrew Mason: http://ajm188.github.io
+- Andrew Mason: http://fixedpoint.xyz
 - Matthew Bentley: http://bentley.link
 - Katherine Cass: http://katherinecass.me
 - David Aghassi: http://aghassi.github.io
