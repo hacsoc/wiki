@@ -11,6 +11,7 @@ Contents:
    :maxdepth: 1
 
    hacsoc
+   position_roles
    slack
    linkstate
    ordering_food
