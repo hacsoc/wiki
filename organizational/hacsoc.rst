@@ -104,7 +104,9 @@ Rules for Hacker Society Lectures
    expected to be technical.
 3. Recruiting pitches are limited to one slide.
 4. Lectures are expected to be conducted professionally.
-5. CWRU's policies on harassment are always in force on campus and at Hacker
+5. If it is your first time giving a talk at Hacker Society, we will ask to 
+   see your slides about two weeks in advance.
+6. CWRU's policies on harassment are always in force on campus and at Hacker
    Society events.
 
 
