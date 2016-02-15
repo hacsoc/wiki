@@ -471,7 +471,7 @@ the <strong>apache2</strong> directory. Edit the following values in <strong>Mak
 <p>The values for <em>srcdir</em>, <em>builddir</em>, and <em>VPATH</em> will most likely all be
 <strong>./</strong></p>
 <p>The module is compiled and installed by running</p>
-<div class="code bash highlight-python"><div class="highlight"><pre>make mod_cas.la
+<div class="code bash highlight-python"><div class="highlight"><pre><span></span>make mod_cas.la
 make install-modules
 </pre></div>
 </div>
@@ -479,12 +479,12 @@ make install-modules
 <a class="reference external" href="http://httpd.apache.org/docs/2.0/programs/apxs.html">apxs</a>. Run the
 following to compile and copy the module to your Apache module
 directory:</p>
-<div class="code bash highlight-python"><div class="highlight"><pre>/path/to/apxs -i -c mod_cas.c ssl_client.c
+<div class="code bash highlight-python"><div class="highlight"><pre><span></span>/path/to/apxs -i -c mod_cas.c ssl_client.c
 </pre></div>
 </div>
 <p>Once the module is installed, you need to edit your Apache config file
 (usually <em>httpd.conf</em>) and add the following:</p>
-<div class="code apache highlight-python"><div class="highlight"><pre>LoadModule cas_module usr/lib/apache2/mod_cas.so
+<div class="code apache highlight-python"><div class="highlight"><pre><span></span>LoadModule cas_module usr/lib/apache2/mod_cas.so
 CASLoginURL https://login.case.edu/cas/login
 CASHost login.case.edu
 CASValidate /cas/validate
@@ -500,7 +500,7 @@ CASLocalCacheInsecure Off
 <p>The <strong>CasTrustedCerts</strong> directive should point to a file containing the public
 certificate of the Certificate Authority for the CAS server. It is recommended
 to create a file with the following contents:</p>
-<div class="highlight-python"><div class="highlight"><pre>-----BEGIN CERTIFICATE-----
+<div class="highlight-python"><div class="highlight"><pre><span></span>-----BEGIN CERTIFICATE-----
 MIIE2DCCBEGgAwIBAgIEN0rSQzANBgkqhkiG9w0BAQUFADCBwzELMAkGA1UEBhMC
 VVMxFDASBgNVBAoTC0VudHJ1c3QubmV0MTswOQYDVQQLEzJ3d3cuZW50cnVzdC5u
 ZXQvQ1BTIGluY29ycC4gYnkgcmVmLiAobGltaXRzIGxpYWIuKTElMCMGA1UECxMc
@@ -536,7 +536,7 @@ Apache log for testing purposes. For <em>CASLocalCacheFile</em>, create a blank
 file and set its permissions so the Apache user can write to this file.</p>
 <p>To protect a specific directory to require CAS authentication, just use
 AuthType CAS. For example:</p>
-<div class="code apache highlight-python"><div class="highlight"><pre>&lt;Location &quot;/cas-protected/&quot;&gt;
+<div class="code apache highlight-python"><div class="highlight"><pre><span></span>&lt;Location &quot;/cas-protected/&quot;&gt;
     AuthType CAS
     AuthName &quot;CAS&quot;
     require valid-user
@@ -586,14 +586,14 @@ available at
 <p><strong>Note:</strong> Both links above are dead.  Updated sources for the Case CAS module
 (if it still exists) would be very much appreciated.</p>
 <p>Sample usage:</p>
-<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;Case/Authn/CAS.php&#39;);
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>require_once(&#39;Case/Authn/CAS.php&#39;);
 $cas = new Case_Authn_CAS();
 $cas-&gt;forceAuthentication();
 $CaseID = $cas-&gt;getCaseID();
 </pre></div>
 </div>
 <p>or</p>
-<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;Case/Authn/CAS.php&#39;);
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>require_once(&#39;Case/Authn/CAS.php&#39;);
 $cas = new Case_Authn_CAS();
 $cas-&gt;checkAuthentication();
 
@@ -611,7 +611,7 @@ library to perform CAS authentication within your PHP applications.</p>
 <p>To install phpCAS, download phpCAS, extract the contents of the archive,
 and copy <em>source/CAS</em> to somewhere in PHP&#8217;s <em>include_path</em>. In your PHP
 application, use the following to set up your CAS client:</p>
-<div class="code php highlight-python"><div class="highlight"><pre>require_once(&#39;CAS/CAS.php&#39;);
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>require_once(&#39;CAS/CAS.php&#39;);
 
 phpCAS::client(CAS_VERSION_2_0,&#39;login.case.edu&#39;,443,&#39;/cas&#39;);
 </pre></div>
@@ -620,11 +620,11 @@ phpCAS::client(CAS_VERSION_2_0,&#39;login.case.edu&#39;,443,&#39;/cas&#39;);
 unless the 5th parameter of the function is <em>false</em>. If your session is
 already started, this will issue a PHP warning.</p>
 <p>To force the user to be logged in, execute the following statement:</p>
-<div class="code php highlight-python"><div class="highlight"><pre>phpCAS::forceAuthentication();
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>phpCAS::forceAuthentication();
 </pre></div>
 </div>
 <p>If you need to obtain the person&#8217;s network ID, use:</p>
-<div class="code php highlight-python"><div class="highlight"><pre>$NetID = phpCAS::getUser();
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>$NetID = phpCAS::getUser();
 </pre></div>
 </div>
 <p>More documentation is availabe at the library&#8217;s web site.</p>
@@ -634,7 +634,7 @@ $_SESSION variables or cookies.</p>
 </div>
 <div class="section" id="example-php-script">
 <h4><a class="toc-backref" href="#id27">Example PHP Script</a><a class="headerlink" href="#example-php-script" title="Permalink to this headline">¶</a></h4>
-<div class="code php highlight-python"><div class="highlight"><pre>&lt;?php
+<div class="code php highlight-python"><div class="highlight"><pre><span></span>&lt;?php
 
 //initialize the CAS library
 require_once(&#39;CAS/CAS.php&#39;);
