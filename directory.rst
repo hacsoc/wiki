@@ -26,4 +26,4 @@ Alumni
 ------
 
 - Steph Hippo: http://stephhippo.com
-- Brian Stack: http://bis12.github.io
+- Brian Stack: http://imbstack.github.io
