@@ -16,7 +16,7 @@ Active Members
 --------------
 
 - Tim Henderson: http://hackthology.com
-- Stephen Brennan: http://stephen-brennan.com
+- Stephen Brennan: http://brennan.io
 - Andrew Mason: http://fixedpoint.xyz
 - Matthew Bentley: http://bentley.link
 - Katherine Cass: http://katherinecass.me
