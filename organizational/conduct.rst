@@ -60,7 +60,11 @@ Other Policies
 
 As mentioned above, the policies of the `CWRU Handbook
 <https://students.case.edu/handbook/policy/>`_ are always applicable at HacSoc
-events as well.
+events and in HacSoc gathering spaces.  Other policies that we believe apply
+here are `ACM's
+<http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct>`_ and
+`IEEE's <http://www.ieee.org/about/ieee_code_of_conduct.pdf>`_, since HacSoc
+represents chapters of both organizations.
 
 .. [#hacsoc] In this code of conduct, we're using Hacker Society to refer to
              "everything" - the ACM and IEEE chapters as well as the talk series
