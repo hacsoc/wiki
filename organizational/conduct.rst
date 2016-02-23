@@ -30,13 +30,22 @@ tolerate harassment.  This includes, but is not limited to:
 Enforcement
 -----------
 
-This policy applies at all Hacker Society events, such as weekly talks, open
-hacks, Link-State, HackCWRU, the mailing lists, our GitHub organization, and on
-our Slack team.  It applies to attendees as well as any speakers, sponsors, or
-other participants in these activities and communication streams.  Although we
-don't have any direct authority over behavior in our typical "hangouts" such as
-the Glennan Student Lounge, we expect that HacSoc participants will adhere to
-these guidelines, and we also note that `Case's policies
+This policy applies at all Hacker Society events and spaces, online and
+offline.  This includes, but is not limited to:
+
+- Weekly talks
+- Open hacks
+- Link-State
+- HackCWRU
+- Mailing lists (hackers-discuss, cwru-hackers)
+- GitHub organization
+- Slack team
+
+The policy applies to attendees as well as any speakers, sponsors, or other
+participants in these activities and communication streams.  Although we don't
+have any direct authority over behavior in our typical spaces such as the
+Glennan Student Lounge, we expect that HacSoc participants will adhere to these
+guidelines, and we also note that `Case's policies
 <https://students.case.edu/handbook/policy/>`_ are always in force.
 
 We expect participants asked to stop any harassing behavior to comply
@@ -44,7 +53,7 @@ immediately.  If participants do not comply, the Maintainer and HacSoc officers
 retain the right to take any actions to keep HacSoc a welcoming environment for
 all participants.  This includes warning the offender, or removing them from the
 event or communication streams they are abusing.  This also includes further
-action, such as pursuing University action, should it become necessary.
+measures, such as pursuing University action, should it become necessary.
 
 Reporting
 ---------
