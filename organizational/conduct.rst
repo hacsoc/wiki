@@ -18,7 +18,9 @@ of gender, gender identity and expression, sexual orientation, disability,
 physical appearance, body size, race, age, or religion.  As such, we do not
 tolerate harassment.  This includes, but is not limited to:
 
-- Rude or unwelcome comments
+- Rude or unwelcome comments about a person's gender, gender identity, gender
+  expression, sexual orientation, disability, physical appearance, attire, race,
+  age or religious expression.
 - Sexual images in public spaces
 - Deliberate intimidation, stalking, or following
 - Harassing photography or recording
@@ -26,6 +28,12 @@ tolerate harassment.  This includes, but is not limited to:
 - Inappropriate physical contact
 - Unwelcome sexual attention
 - Advocating for, or encouraging, any of the above behavior
+
+Necessarily, the goal of providing an open atmosphere for discussion and debate
+has some tension with the goal of providing a welcoming environment.  We expect
+that debate and constructive criticism are part of this open atmosphere.
+However, when these discussions devolve into attacks against a person and/or
+their intrinsic characteristics, we believe that this is unacceptable.
 
 Enforcement
 -----------
