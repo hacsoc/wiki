@@ -31,12 +31,12 @@ Enforcement
 -----------
 
 This policy applies at all Hacker Society events, such as weekly talks, open
-hacks, Link-State, HackCWRU, the mailing lists, and on our Slack team.  It
-applies to attendees as well as any speakers, sponsors, or other participants in
-these activities and communication streams.  Although we don't have any direct
-authority over behavior in our typical "hangouts" such as the Glennan Student
-Lounge, we expect that HacSoc participants will adhere to these guidelines, and
-we also note that `Case's policies
+hacks, Link-State, HackCWRU, the mailing lists, our GitHub organization, and on
+our Slack team.  It applies to attendees as well as any speakers, sponsors, or
+other participants in these activities and communication streams.  Although we
+don't have any direct authority over behavior in our typical "hangouts" such as
+the Glennan Student Lounge, we expect that HacSoc participants will adhere to
+these guidelines, and we also note that `Case's policies
 <https://students.case.edu/handbook/policy/>`_ are always in force.
 
 We expect participants asked to stop any harassing behavior to comply
