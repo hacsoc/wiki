@@ -49,7 +49,7 @@ Email
 
       This list is probably not moderated.
     - `acm-announce mailing list
-      <https://lists.case.edu/wws/info/hackers-summer>`_
+      <https://lists.case.edu/wws/info/acm-announce>`_
       A relic from an earlier time.
     - `acm-exec mailing list
       <https://lists.case.edu/wws/info/acm-exec>`_
