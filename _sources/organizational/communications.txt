@@ -41,9 +41,9 @@ Email
 
 GitHub
 ------
-`Hacsoc Github Organization`_
+`Hacsoc GitHub Organization`_
 
-.. _Hacsoc Github: https://github.com/hacsoc
+.. _Hacsoc GitHub Organization: https://github.com/hacsoc
 
 - Always welcome new issue submissions, pull requests, code, and other
   contributions
@@ -81,5 +81,3 @@ IRC
   Officers are encouraged to also maintain a presence here.
 - We’ve got irc.case.edu with ``#cwru``, ``#acm``, ``#hackers``, ``#ieee``
 - Show up if you’re interested
-
-
