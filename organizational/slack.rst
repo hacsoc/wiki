@@ -51,6 +51,10 @@ Currently, we have:
 - ``#talks``: for discussion related to potential weekly HacSoc talks.  Note
   that it is the HacSoc maintainer's job to organize these talks, but
   communication about these talks could happen here.
+- ``#openhacks``: for discussion related to OpenHacks. If you have an idea for
+  an event to do at OpenHacks, want to help out with someone else's idea, or
+  just generally want to know what's going on at a rate faster than once per
+  week, this is the place to be.
 
 There are more channels than the ones mentioned here.  You may create new ones,
 but please stop to consider whether it is a constructive channel for HacSoc.
