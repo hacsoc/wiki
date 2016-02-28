@@ -25,6 +25,12 @@ Email
       you. Contact PR for getting your announcement in the weekly email.
 
       This list is moderated.
+    - `hacsoc-officers mailing list
+      <https://lists.case.edu/wws/info/hacsoc-officers>`_
+      This list contains the officers of Hacker Society, ACM, and IEEE. Use
+      this list if you have a private dispute resolution issue.
+
+      This list is moderated.
     - `hackers-discuss mailing list
       <https://lists.case.edu/wws/info/hackers-discuss>`_
       For discussion among members. If you have a question, or want to talk
