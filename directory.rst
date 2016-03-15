@@ -12,6 +12,12 @@ the `repository for this wiki <https://github.com/hacsoc/wiki>`_.  Finally, if
 you're interested in creating your own blog, you can probably talk to any of the
 listed people below about how to go about it.
 
+Also, we have a Slack channel, ``#blogs``, that updates whenever a new blog
+article is posted to a HacSoc member's blog.  You can get your blog added to
+this list by submitting a pull request to `the notifier repository
+<https://github.com/hacsoc/blognotifier>`_ (or by pinging ``@brenns10`` on
+Slack).
+
 Active Members
 --------------
 

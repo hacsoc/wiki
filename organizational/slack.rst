@@ -55,6 +55,9 @@ Currently, we have:
   an event to do at OpenHacks, want to help out with someone else's idea, or
   just generally want to know what's going on at a rate faster than once per
   week, this is the place to be.
+- ``#blogs``: automatic @channel notifications when a HacSoc member posts a new
+  blog article.  You can get your blog added `here
+  <https://github.com/hacsoc/blognotifier>`_.
 
 There are more channels than the ones mentioned here.  You may create new ones,
 but please stop to consider whether it is a constructive channel for HacSoc.
