@@ -27,6 +27,7 @@ Active Members
 - Matthew Bentley: http://bentley.link
 - Katherine Cass: http://katherinecass.me
 - David Aghassi: http://aghassi.github.io
+- Luc Bettaieb: http://bettaieb.com
 
 Alumni
 ------
