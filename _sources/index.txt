@@ -6,6 +6,8 @@
 Welcome to Hacker Society's documentation!
 ==========================================
 
+To edit the wiki see: <https://github.com/hacsoc/wiki>
+
 Contents:
 
 .. toctree::
