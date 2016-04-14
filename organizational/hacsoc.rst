@@ -152,4 +152,6 @@ Past Maintainers
 - Jon Pfeil [Fall 2014]
 - Steph Hippo [Spring 2015]
 - Tim Henderson [Fall 2015]
+- Koby Picker [Spring 2016]
+- Yidi Huang [Spring 2016]
 
