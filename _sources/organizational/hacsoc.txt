@@ -135,7 +135,7 @@ Other Resources
   <https://github.com/hacsoc/hacsoc.github.com>`_
 - `Google Calendar
   <https://www.google.com/calendar/embed?src=case.edu_0migs4focp7udt4v984fojmef0%40group.calendar.google.com&ctz=America/New_York>`_
-- `hacsoc.slack.org <https://hacsoc.slack.org>`_
+- `hacsoc.slack.com <https://hacsoc.slack.com>`_
 
 
 Past Maintainers
