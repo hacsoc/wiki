@@ -34,3 +34,4 @@ Alumni
 
 - Steph Hippo: http://stephhippo.com
 - Brian Stack: http://imbstack.github.io
+- Michelle Bergeron: http://mrbit.me
