@@ -17,7 +17,6 @@ Active Members
 
 - Tim Henderson: http://hackthology.com
 - Stephen Brennan: http://brennan.io
-- Andrew Mason: http://fixedpoint.xyz
 - Matthew Bentley: http://bentley.link
 - Katherine Cass: http://katherinecass.me
 - David Aghassi: http://aghassi.github.io
@@ -25,5 +24,6 @@ Active Members
 Alumni
 ------
 
+- Andrew Mason: http://fixedpoint.xyz
 - Steph Hippo: http://stephhippo.com
 - Brian Stack: http://imbstack.github.io
