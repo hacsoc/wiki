@@ -11,9 +11,10 @@ Apple makes iOS and OS X development very easy on Macs. Microsoft makes Windows
 development very easy on PCs. However, web development using the most popular
 tools is easiest on Linux, and so is cross platform development. The main reason
 for this is that Linux treats the command line as a "first-class" tool.
-Everything you can do with a GUI [#fn-gui]_ you can also do on the command line,
-and you can usually do even more powerful things on the command line than you
-can with a GUI.
+Everything you can do with a `GUI
+<https://en.wikipedia.org/wiki/Graphical_user_interface>`_ you can also do on
+the command line, and you can usually do even more powerful things on the
+command line than you can with a GUI.
 
 It's a Valuable Skill
 ---------------------
@@ -49,6 +50,3 @@ We still recommend you at least try it and become familiar with the basics,
 because you will need to use some Linux in classes like Operating Systems and
 Networks. You're also likely to run across Linux in the "real world" once you
 graduate, which is another good reason to be familiar.
-
-.. [#fn-gui] GUI = `Graphical User Interface
-   <https://en.wikipedia.org/wiki/Graphical_user_interface>`_

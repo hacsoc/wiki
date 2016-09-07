@@ -22,8 +22,8 @@ list.
 
 *Recommended way to go through this section:* Follow through the first few
 articles, up to Git. From there, see about doing your Java or Data Structures
-homework on Linux! Once you're comfortable doing this, you can even begin
-learning other languages and technologies.
+homework on Linux! Once you're comfortable doing this, you can begin learning
+other languages and technologies.
 
 .. toctree::
    :maxdepth: 1

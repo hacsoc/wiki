@@ -2,9 +2,11 @@ OK I'm Ready... How Do I Try/Install It?
 ========================================
 
 So you're ready to install a Linux? Great! If it's your first time, hopefully
-you're starting with Ubuntu. Also if it's your first time, you may want to grab
-an experienced Linux buddy (ask in Slack or mailing list) to help you. Don't do
-this if you know you'll desperately need your computer the next day!
+you're starting with Ubuntu. Also if it's your first time, you may want the help
+of an experienced Linux buddy. If you don't know where to find one, you could
+ask in Slack or on the ``hackers-discuss`` mailing list (more info here:
+:doc:`/organizational/communications`). Don't do this if you know you'll
+desperately need your computer the next day!
 
 *If you're not installing Ubuntu, these steps may not apply perfectly to you.*
 The information on virtual machines, live CDs, and live USBs will probably be
@@ -22,10 +24,10 @@ Step 2: Try it in a Virtual Machine
 -----------------------------------
 
 Installing Linux **replaces** your existing operating system, **overwriting**
-all of your programs and files on your computer. If you're not ready to
-completely jump ship to Linux, this is a bit impractical. Ideally, you should
-try it out before committing to using it full time. You can do this with a
-virtual machine!
+all of your programs and files on your computer [#fn-dualboot]_. If you're not
+ready to completely jump ship to Linux, this is a bit impractical. Ideally, you
+should try it out before committing to using it full time. You can do this with
+a virtual machine!
 
 Virtual machines are exactly what they sound like: programs that pretend to be
 an entire computer. They let you install entire operating systems inside of them
@@ -84,18 +86,21 @@ Step 4: Install to Your Computer
 --------------------------------
 
 At this point, you should be confident that you want to replace your existing
-operating system and erase all of your files (back up **EVERYTHING** important).
-If this is your main computer, you ought to be confident that you can do
-everything (homework, entertainment, etc) on your chosen distribution. Try the
-VM approach above if you're not sure.
+operating system and erase all of your files (back up **EVERYTHING**
+important--your CWRU Google Drive is a great place to do this). If this is your
+main computer, you ought to be confident that you can do everything (homework,
+entertainment, etc) on your chosen distribution. Try the VM approach above if
+you're not sure.
 
 The steps for this are deceptively simple:
 
 1. Plug in the USB stick.
-2. Reboot your computer. Hopefully it will boot from the USB stick. If not, try
-   rebooting and holding down one of the following keys: F8 through F12, or
-   Escape. Usually one of these will bring up a menu where you can select what
-   you want to boot from. Select your USB stick from this device.
+2. Reboot your computer. As your computer boots up, it should show you a message
+   about which key to press to "interrupt normal startup" or something like
+   that. Press this key as your computer boots. If there is no message with a
+   key, F8 through F12, or Escape. Usually one of these will bring up a menu
+   where you can select what you want to boot from. Select your USB stick from
+   your computer's boot options.
 3. Follow the install menu (hopefully you already did this when you tried it in
    a VM!).  You'll probably need to remove the USB drive when you reboot.
 
@@ -105,3 +110,17 @@ you're about to install, but *without actually installing it*. This is another
 great way to try out a Linux distribution! It's especially nice because it uses
 your computer's actual hardware - if it doesn't work Live, you may have a
 problem installing it.
+
+.. [#fn-dualboot] There is a way to install Linux onto your computer's hard
+   drive without wiping the contents of your hard drive. It's called dual
+   booting, because what you end up doing is installing a second operating
+   system onto your computer. When you boot your computer, you get to choose
+   which OS to use. In order to make this work, you have to shrink the partition
+   of your hard disk holding your current operating system in order to make room
+   for a new one. Then you install the second operating system to the new
+   partition, and setup a bootloader so you have the option to boot either
+   operating system. This can be easy or difficult, depending on a lot of
+   factors. If you want to try this, make sure to back up all your programs and
+   data, and make sure you have a backup plan for how to re-install your
+   original operating system! Do lots of Google searches like "dual boot windows
+   10 and ubuntu 16.04" to get an idea of how it works.

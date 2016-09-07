@@ -3,7 +3,7 @@ Which Linux Should I Use?
 
 Unlike Windows or OS X, there are several different "flavors" of Linux you can
 use. We call them "`Linux distributions
-<https://en.wikipedia.org/wiki/Linux_distribution>`_."
+<https://en.wikipedia.org/wiki/Linux_distribution>`_", or "distros" for short.
 
 Distributions?
 --------------
@@ -32,8 +32,8 @@ you know which one to use?
 **If it's your first time using Linux, use Ubuntu.** It's a fairly friendly
 place to start, and there's tons of help available for it. Check it out `here
 <http://www.ubuntu.com/>`_, or go straight to the `downloads page
-<http://www.ubuntu.com/download/desktop>`_ (you don't have to give them money,
-just scroll past their donation stuff).
+<http://www.ubuntu.com/download/desktop>`_ (you don't have to give them money to
+download).
 
 Some people don't like Ubuntu's default user interface (called Unity).
 Thankfully, Ubuntu comes with a few different interfaces. These are the two most
@@ -61,9 +61,9 @@ Arch Linux
 
 For many who have familiarized themselves with Linux and want to learn more,
 `Arch <https://archlinux.org>`_ is a great next step. This distribution always
-has the latest, most up to date software. You can use nearly any desktop you'd
-like with it. The downside: you have to install it all manually and configure it
-all yourself!
+has the latest, most up to date software. You can use nearly any desktop
+environment you'd like with it. The downside: you have to install it all
+manually and configure it all yourself!
 
 However, this isn't really a downside. Installing and configuring your own
 operating system is a great learning experience.
@@ -77,12 +77,13 @@ Other benefits of Arch include:
   Spotify or Sublime Text!
 - More than one HacSoc member uses it! (at the time of writing)
 
-Arch is a pretty fantastic choice for somebody who is intermediate at Linux and
-really wants to learn more. Make sure you leave yourself time to get lots of
+Arch is a pretty fantastic choice for somebody who is an intermediate Linux user
+and really wants to learn more. Make sure you leave yourself time to get lots of
 stuff set up, and probably debug a few problems. It's wise to try installing it
 on a virtual machine or alternative computer first. Definitely don't install it
 the day before you really need your computer for something! Also feel free to go
-to Glennan or Slack to ask for help about installing Arch.
+to Glennan or Slack to ask for help about installing Arch (check out
+:doc:`/organizational/communications`).
 
 Debian
 ~~~~~~

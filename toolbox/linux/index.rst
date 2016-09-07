@@ -10,10 +10,14 @@ is actually very good.
 
 If you follow through this subsection, you should be at the point where you have
 installed Linux on your computer or a virtual machine. This is a prerequisite
-for a number of things in the "Hacker's Toolbox."
+for a number of things in the "Hacker's Toolbox" - or, more accurately, it makes
+them a lot easier.
 
 HacSoc typically holds Linux install fests at the beginning of each year. These
-are excellent times to get help on this stuff!
+are excellent times to get help on this stuff! However, if you missed the
+install fest, you can still follow this guide. If you have questions, you can
+connect with people who can help in a variety of ways:
+:doc:`/organizational/communications`. We recommend Slack!
 
 .. toctree::
    :maxdepth: 1
