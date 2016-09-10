@@ -5,8 +5,10 @@ So you're ready to install a Linux? Great! If it's your first time, hopefully
 you're starting with Ubuntu. Also if it's your first time, you may want the help
 of an experienced Linux buddy. If you don't know where to find one, you could
 ask in Slack or on the ``hackers-discuss`` mailing list (more info here:
-:doc:`/organizational/communications`). Don't do this if you know you'll
-desperately need your computer the next day!
+:doc:`/organizational/communications`).
+
+**Protip:** Avoid making any major changes to your computer (like installing
+Linux) if you know you'll desperately need your computer the next day!
 
 *If you're not installing Ubuntu, these steps may not apply perfectly to you.*
 The information on virtual machines, live CDs, and live USBs will probably be
