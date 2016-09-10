@@ -13,9 +13,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   toolbox/index
    organizational/index
    technical/index
    directory
    community
    job_postings
-
