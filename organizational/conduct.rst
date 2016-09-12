@@ -9,6 +9,8 @@ open society.
 personal responsibility, individualism, cooperation, and equality of all
 citizens.
 
+.. _code-of-conduct:
+
 Code of Conduct
 ===============
 

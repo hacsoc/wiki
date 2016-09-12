@@ -13,6 +13,7 @@ Contents:
    hacsoc
    position_roles
    conduct
+   server
    slack
    linkstate
    ordering_food
