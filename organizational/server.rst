@@ -9,7 +9,8 @@ Usage policy
 
 The Hacker Society :ref:`code-of-conduct` applies to any externally facing
 service hosted on the ACM server.  This includes websites and chat services.
-It does not include private services, such as those protected by a password.
+It does not include private services, such as private chats or sites that are
+protected by a password.
 
 The CWRU `Acceptable Use of Information Technology Policy
 <http://www.case.edu/utech/policies/i-1-acceptable-use-of-information-technology-policy-aup/>`_
