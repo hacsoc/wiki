@@ -33,6 +33,7 @@ Past server admins
 ^^^^^^^^^^^^^^^^^^
 - Even Krall
 - Josh Snyder
+- Cameron Gutman
 - Aaron Neyer
 
 Services
