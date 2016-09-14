@@ -7,18 +7,31 @@ host applications and services that are useful to students.
 Usage policy
 ------------
 
+Code of Conduct
+^^^^^^^^^^^^^^^
 The Hacker Society :ref:`code-of-conduct` applies to any externally facing
 service hosted on the ACM server.  This includes websites and chat services.
 It does not include private services, such as private chats or sites that are
 protected by a password.
 
+CWRU Acceptable Use of Technology
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The CWRU `Acceptable Use of Information Technology Policy
 <http://www.case.edu/utech/policies/i-1-acceptable-use-of-information-technology-policy-aup/>`_
 applies to all services, public or private.
 
+Privacy Policy
+^^^^^^^^^^^^^^
+No admin on any ACM run server or virtual machine will access or modify your
+data except for when necessary for the technical maintenance of the server or
+when legally required.
+
+Any attempt to access another user's data, either by an admin or a user, will
+result in loss of access to ACM servers and, if appropriate, will be reported
+to relevant university authorities.
+
 Server admin
 ------------
-
 The server admin will be apointed by the HacSoc officers, and is responsible
 for administrating and maintaining the ACM server and all services on it.  He
 or she may recruit assistant server admins to help with this duty.
