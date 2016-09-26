@@ -49,6 +49,14 @@ Past server admins
 - Cameron Gutman
 - Aaron Neyer
 
+Server minions
+--------------
+Assistant server admins, aka server minions, will help the server admin keep
+the server running. Their responsibilities and levels of acces will be
+determined by the server admin. Once proper monitoring and alerting are
+implemented, there should be an on-call schedule for the server admin and
+assistant server admins.
+
 Services
 --------
 
