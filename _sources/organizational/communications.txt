@@ -19,24 +19,59 @@ Email
 
     - `cwru-hackers mailing list
       <https://lists.case.edu/wws/info/cwru-hackers>`_
+      For Hacker Society announcements. Emails are generally sent once per week
+      (usually on Mondays) containing everything that is going on in Hacker
+      Society. If you want to make an announcement, this is the list for
+      you. Contact PR for getting your announcement in the weekly email.
+
+      This list is moderated.
+    - `hacsoc-officers mailing list
+      <https://lists.case.edu/wws/info/hacsoc-officers>`_
+      This list contains the officers of Hacker Society, ACM, and IEEE. Use
+      this list if you have a private dispute resolution issue.
+
+      This list is moderated.
     - `hackers-discuss mailing list
       <https://lists.case.edu/wws/info/hackers-discuss>`_
+      For discussion among members. If you have a question, or want to talk
+      about your cool hack, this is the place.
+
+      This list is not moderated. Any member should be able to start a
+      discussion with Hacker Society via this thread. Please be respectful to
+      the other subscribers, though, and think before posting.
+
+      This list is not the place for announcements. If you want to make an
+      announcement, you want cwru-hackers (see above).
     - `acm-downtime mailing list
       <https://lists.case.edu/wws/subscribe/acm-downtime>`_
+      For announcements about server downtime. If you have a service running on
+      our servers, you should be on this list.
+
+      This list is moderated.
     - `hackers-summer mailing list
       <https://lists.case.edu/wws/info/hackers-summer>`_
+      For discussion among Hacker Society members that are in the Cleveland
+      area over the summer.
+
+      This list is probably not moderated.
     - `acm-announce mailing list
-      <https://lists.case.edu/wws/info/hackers-summer>`_
+      <https://lists.case.edu/wws/info/acm-announce>`_
+      A relic from an earlier time.
     - `acm-exec mailing list
       <https://lists.case.edu/wws/info/acm-exec>`_
+      A relic from an earlier time.
     - `acm-members mailing list
       <https://lists.case.edu/wws/info/acm-members>`_
+      A relic from an earlier time.
     - `acm-officers mailing list
       <https://lists.case.edu/wws/info/acm-officers>`_
+      A relic from an earlier time.
     - `acm-talk mailing list
       <https://lists.case.edu/wws/info/acm-talk>`_
+      A relic from an earlier time.
 
-- Has to move over to some Google hosted service before the end of 2015?
+- The most used lists will be migrated to Google Groups, while others may be
+  deleted.
 
 
 GitHub
