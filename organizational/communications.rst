@@ -70,7 +70,8 @@ Email
       <https://lists.case.edu/wws/info/acm-talk>`_
       A relic from an earlier time.
 
-- Has to move over to some Google hosted service before the end of 2015?
+- The most used lists will be migrated to Google Groups, while others may be
+  deleted.
 
 
 GitHub
