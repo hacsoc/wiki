@@ -31,7 +31,7 @@ Active Members
 Alumni
 ------
 
-- Andrew Mason: http://fixedpoint.xyz
+- Andrew Mason: https://fixedpoint.xyz
 - Steph Hippo: http://stephhippo.com
 - Brian Stack: http://imbstack.github.io
 - Michelle Bergeron: http://mrbit.me
