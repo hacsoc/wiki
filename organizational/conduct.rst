@@ -1,9 +1,9 @@
 The Mission of Hacker Society
 =============================
 
-A time and place for people to learn about technology from each other, in order
-to build a community, to empower the individual, promote equality, and build an
-open society.
+Hacker Society (HacSoc) at Case Western Reserve University is a time and place
+for people to learn about technology from each other, in order to build a
+community, empower the individual, promote equality, and foster an open society.
 
 **Open Society**: An open society promotes freedom of thought and expression,
 personal responsibility, individualism, cooperation, and equality of all
@@ -13,17 +13,15 @@ Code of Conduct
 ===============
 
 It is expected that members behave in a way that allows Hacker Society to
-achieve its mission.  Participants in Hacker Society events are expected to
-treat each other with dignity and respect for each other's perspectives,
-experiences, and knowledge.  In particular, participants should recognize that
-people of all skill levels are welcome, and should always be willing to help
-others learn.
+achieve its mission. Participants in Hacker Society events are expected to
+respect each other's perspectives and treat each other with dignity and respect.
+In particular, participants should recognize that people of all skill levels are
+welcome, and should always be willing to help others learn.
 
-To support Hacker Society's mission of: learning technology from each other,
-building community, and promoting equality, Hacker Society must be a place where
-people can be comfortable regardless of gender, gender identity and expression,
-sexual orientation, disability, physical appearance, body size, race, age, or
-religion. Therefore, we do not tolerate:
+To support its mission, Hacker Society must be a place where people can be
+comfortable regardless of gender, gender identity and expression, sexual
+orientation, disability, physical appearance, body size, race, age, or religion.
+Therefore, we do not tolerate:
 
 - Rude or unwelcome comments about a person's gender, gender identity, gender
   expression, sexual orientation, disability, physical appearance, attire, race,
@@ -38,9 +36,9 @@ religion. Therefore, we do not tolerate:
 
 Necessarily, the goals of learning, community, and equality are in tension
 with the goals individual empowerment, freedom of thought, and freedom of
-expression. We strive for politeness and civil discourse but we also strive to
-make all welcome. Even those with unpopular ideas or thoughts. However, in
-order to foster our community certain limits on free expression must be
+expression. We encourage polite, civil discourse but we also strive to
+make all welcome, even those with unpopular ideas or thoughts. However, in
+order to foster our community, certain limits on free expression must be
 observed. We expect that debate and constructive criticism are part of this
 open atmosphere. We expect that some members of the community may express
 ideas which are not politically correct. We expect that some ideas expressed
@@ -55,7 +53,7 @@ This policy applies at all Hacker Society events and spaces, online and
 offline.  This includes, but is not limited to:
 
 - Weekly talks
-- Open hacks
+- Open Hacks
 - Link-State
 - HackCWRU
 - Mailing lists (hackers-discuss, cwru-hackers)
@@ -80,18 +78,19 @@ Reporting
 ---------
 
 If someone is making you feel unsafe or unwelcome at HacSoc, please report it as
-soon as possible.  At events such as Link-State and HackCWRU, staff can be
-identified by their shirts.  At other events, you can talk to the officers or
-maintainer.  And you may always report harassing behavior to officers via email
-(hacsoc-officers@case.edu) or via private message on Slack.
+soon as possible. At events such as Link-State and HackCWRU, staff can be
+identified by their shirts. At other events, you can talk to the officers or
+Maintainer. And you may always report harassing behavior to officers via email
+(hacsoc-officers@case.edu) or via private message on Slack. If you don't feel
+comfortable reporting a problem to an officer, consider reporting the problem
+directly to any of the faculty or staff of the EECS department.
 
 Other Policies
 --------------
 
 As mentioned above, the policies of the `CWRU Handbook
 <https://students.case.edu/handbook/policy/>`_ are always applicable at HacSoc
-events and in HacSoc gathering spaces.  Other policies that we believe apply
-here are `ACM's
+events and in HacSoc gathering spaces. Other policies that apply here are `ACM's
 <http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct>`_ and
 `IEEE's <http://www.ieee.org/about/ieee_code_of_conduct.pdf>`_, since HacSoc
 represents chapters of both organizations.
