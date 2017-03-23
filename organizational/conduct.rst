@@ -1,3 +1,6 @@
+.. image:: https://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif
+   :target: http://www.textfiles.com/underconstruction/
+
 The Mission of Hacker Society
 =============================
 
