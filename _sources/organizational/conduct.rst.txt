@@ -1,6 +1,3 @@
-.. image:: https://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif
-   :target: http://www.textfiles.com/underconstruction/
-
 The Mission of Hacker Society
 =============================
 
@@ -86,7 +83,11 @@ identified by their shirts. At other events, you can talk to the officers or
 Maintainer. And you may always report harassing behavior to officers via email
 (hacsoc-officers@case.edu) or via private message on Slack. If you don't feel
 comfortable reporting a problem to an officer, consider reporting the problem
-directly to any of the faculty or staff of the EECS department.
+directly to any of the faculty or staff of the EECS department. If you are not
+comfortable reporting to EECS faculty or staff, you may use the `Bias Reporting
+System <https://students.case.edu/division/biasreporting/>`_ or talk to the
+staff in the `Student Activities and Leadership office
+<https://students.case.edu/departments/activities/>`_.
 
 Other Policies
 --------------
@@ -95,9 +96,8 @@ As mentioned above, the policies of the `CWRU Handbook
 <https://students.case.edu/handbook/policy/>`_ are always applicable at HacSoc
 events and in HacSoc gathering spaces. Other policies that apply here are `ACM's
 <http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct>`_ and
-`IEEE's <http://www.ieee.org/about/ieee_code_of_conduct.pdf>`_, since HacSoc
-represents chapters of both organizations.
+`IEEE's <http://www.ieee.org/about/ieee_code_of_conduct.pdf>`_, when relevant.
 
 .. [#hacsoc] In this code of conduct, we're using Hacker Society to refer to
-             "everything" - the ACM and IEEE chapters as well as the talk series
-             and mailing lists that are the backbone of our HacSoc community.
+             "everything" - the ACM chapter as well as the talk series and
+             mailing lists that are the backbone of our HacSoc community.
