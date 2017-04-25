@@ -47,11 +47,13 @@ How to Cater Food
 10. Pick up
   - sign receipts, leaving a tip: 15% doesn't necessarily apply here, use best
     judgement.
-  - SAVE THE RECEIPT, photograph once you get the chance
+  - SAVE THE RECEIPT, photograph it when you get a chance
 
 11. Serve
-  - dietary restriction stuff on a different table, or at the end of the line
-  - adding signs (indicating what each item is/contains) would be helpful
+  - place dietary restriction items on a different table, or at the end of the
+    line
+  - it would be helpful to add signs indicating what each food item is, and
+    what each item contains
   - putting all the food out at once causes people to take more, keeping boxes
     under the table makes it last longer.
 
