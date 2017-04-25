@@ -10,8 +10,8 @@ a duty that all HacSoc members should share.
 
 - They will hold the whip on getting members to invite speakers.
 - They will evaluate talk proposals.
-- Ultimately, they will finalize the schedule by determining time slots, doing
-  the logistics of putting speakers into slots, etc.
+- Ultimately, they will finalize the schedule by determining time slots,
+  handling the logistics of putting speakers into slots, etc.
 
 **Chair of Food:** This person organizes food catering for the event:
 
