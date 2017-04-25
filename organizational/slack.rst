@@ -1,12 +1,10 @@
 HacSoc Slack
 ============
 
-`Click here to go to the official HacSoc Slack.`_ 
-
-.. _Hacsoc Slack: https://hacsoc.slack.com
+`Click here to go to the official HacSoc Slack! <https://hacsoc.slack.com>`_ 
 
 What is it?
------------
+--------
 
 Slack is a chat platform for teams.  We use it for "low-latency" communication
 about organizational stuff (e.g. planning talks, LinkState, HackCWRU, etc).  It
@@ -23,7 +21,7 @@ get more involved with HacSoc, this is the place to start.  Don't let your
 dreams be dreams!  Sign up today!
 
 Who is it for?
---------------
+--------
 
 *Slack is not just for officers, it's for anyone interested in getting
 involved!* Anyone with a ``case.edu`` email address can join our Slack team.
