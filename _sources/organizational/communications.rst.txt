@@ -1,4 +1,4 @@
-Hacker's Society Communication Streams
+Hacker Society Communication Streams
 ======================================
 
 This is all about getting a set of written conventions for using our array of

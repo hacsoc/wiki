@@ -101,8 +101,8 @@
 <li class="toctree-l4"><a class="reference internal" href="#why-do-i-need-to-change-my-password-before-i-can-log-in">Why do I need to change my password before I can log in?</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#why-should-i-close-my-browser-when-i-am-done">Why should I close my browser when I am done?</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#authentication-versus-authorization">Authentication versus authorization</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc">How do I obtain the user&#8217;s name, status, etc</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas">Why should I change my existing service to use CAS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc">How do I obtain the user&#8217;s name, status, etc?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas">Why should I change my existing service to use CAS?</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#contact">Contact</a></li>
 </ul>
 </li>
@@ -209,10 +209,10 @@ Service</a>, or CAS,
 to allow services to easily authenticate users. The service entered
 production use on September 6, 2005.</p>
 <p><strong>Please Note:</strong> This article has been created from an archived copy of the CAS
-article from wiki.case.edu.  Although it has been lightly edited, you can expect
-that many of the links are dead, and some of the information is outdated.  I&#8217;ve
-tried to keep as much information intact as possible, but I have removed some
-sections and updated some links.</p>
+article from wiki.case.edu.  Although it has been lightly edited, many of the
+links are dead, and some of the information is outdated. Efforts have been made
+to keep as much information intact as possible, but some sections have been
+removed and some links have been updated.</p>
 <div class="contents topic" id="table-of-contents">
 <p class="topic-title first">Table of Contents</p>
 <ul class="simple">
@@ -222,8 +222,8 @@ sections and updated some links.</p>
 <li><a class="reference internal" href="#why-do-i-need-to-change-my-password-before-i-can-log-in" id="id4">Why do I need to change my password before I can log in?</a></li>
 <li><a class="reference internal" href="#why-should-i-close-my-browser-when-i-am-done" id="id5">Why should I close my browser when I am done?</a></li>
 <li><a class="reference internal" href="#authentication-versus-authorization" id="id6">Authentication versus authorization</a></li>
-<li><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc" id="id7">How do I obtain the user&#8217;s name, status, etc</a></li>
-<li><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas" id="id8">Why should I change my existing service to use CAS</a></li>
+<li><a class="reference internal" href="#how-do-i-obtain-the-user-s-name-status-etc" id="id7">How do I obtain the user&#8217;s name, status, etc?</a></li>
+<li><a class="reference internal" href="#why-should-i-change-my-existing-service-to-use-cas" id="id8">Why should I change my existing service to use CAS?</a></li>
 <li><a class="reference internal" href="#contact" id="id9">Contact</a></li>
 </ul>
 </li>
@@ -308,7 +308,7 @@ services. It is up to the individual services to determine if a user is allowed
 to access them.</p>
 </div>
 <div class="section" id="how-do-i-obtain-the-user-s-name-status-etc">
-<h3><a class="toc-backref" href="#id7">How do I obtain the user&#8217;s name, status, etc</a><a class="headerlink" href="#how-do-i-obtain-the-user-s-name-status-etc" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id7">How do I obtain the user&#8217;s name, status, etc?</a><a class="headerlink" href="#how-do-i-obtain-the-user-s-name-status-etc" title="Permalink to this headline">¶</a></h3>
 <p>CAS merely authenticates a user. All the services know is that a username,
 <em>abc123</em> is accessing their site. CAS does not provide information about users
 to accessed services. However, all is not lost.  This information is contained
@@ -319,7 +319,7 @@ content based upon user&#8217;s role within the university (student, staff, facu
 etc), grade level of student (freshmen, sophomore, junior, senior, etc).</p>
 </div>
 <div class="section" id="why-should-i-change-my-existing-service-to-use-cas">
-<h3><a class="toc-backref" href="#id8">Why should I change my existing service to use CAS</a><a class="headerlink" href="#why-should-i-change-my-existing-service-to-use-cas" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id8">Why should I change my existing service to use CAS?</a><a class="headerlink" href="#why-should-i-change-my-existing-service-to-use-cas" title="Permalink to this headline">¶</a></h3>
 <p>The simple answer: supplying your password to log in all the time is
 annoying. Wouldn&#8217;t it be convenient to just type your password once every eight
 hours and be done with it? Besides, the fewer times users need the password, the
@@ -696,20 +696,21 @@ if (isset($_SESSION[&#39;loggedinLocally&#39;]) &amp;&amp; $_SESSION[&#39;logged
 </div>
 <div class="section" id="perl">
 <h3><a class="toc-backref" href="#id28">Perl</a><a class="headerlink" href="#perl" title="Permalink to this headline">¶</a></h3>
-<p>See <a class="reference external" href="http://sourcesup.cru.fr/perlcas/">http://sourcesup.cru.fr/perlcas/</a>.  Link is dead, search for perlCAS may dig
-something up.</p>
+<p>(Old: See <a class="reference external" href="http://sourcesup.cru.fr/perlcas/">http://sourcesup.cru.fr/perlcas/</a>. )
+This link is dead! If you use CAS with Perl and find an appropriate resource,
+please update this wiki with it! (A Web search for PerlCAS might yield a good
+resource(s).)</p>
 </div>
 <div class="section" id="java">
 <h3><a class="toc-backref" href="#id29">Java</a><a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h3>
-<p>See <a class="reference external" href="http://jasigch.princeton.edu:9000/display/CAS/Java+Client">http://jasigch.princeton.edu:9000/display/CAS/Java+Client</a>.  Link is dead!
-If you use CAS with Java and find an appropriate resource, please update this
-wiki with it!</p>
+<p>(Old: See <a class="reference external" href="http://jasigch.princeton.edu:9000/display/CAS/Java+Client">http://jasigch.princeton.edu:9000/display/CAS/Java+Client</a>. )
+This link is dead! If you use CAS with Java and find an appropriate resource,
+please update this wiki with it!</p>
 </div>
 <div class="section" id="ruby-ruby-on-rails">
 <h3><a class="toc-backref" href="#id30">Ruby / Ruby on Rails</a><a class="headerlink" href="#ruby-ruby-on-rails" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference external" href="https://github.com/rubycas">RubyCAS</a> has a client and server implementation.
-For integrating with Case CAS, you are interested only in the client
-implementation.</p>
+For integrating with Case CAS, just look at the client implementation.</p>
 </div>
 <div class="section" id="django">
 <h3><a class="toc-backref" href="#id31">Django</a><a class="headerlink" href="#django" title="Permalink to this headline">¶</a></h3>
@@ -778,7 +779,7 @@ have to try a couple out and see which ones work for you.</p>
       <script type="text/javascript" src="../_static/jquery.js"></script>
       <script type="text/javascript" src="../_static/underscore.js"></script>
       <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   
 

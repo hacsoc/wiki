@@ -7,10 +7,10 @@ to allow services to easily authenticate users. The service entered
 production use on September 6, 2005.
 
 **Please Note:** This article has been created from an archived copy of the CAS
-article from wiki.case.edu.  Although it has been lightly edited, you can expect
-that many of the links are dead, and some of the information is outdated.  I've
-tried to keep as much information intact as possible, but I have removed some
-sections and updated some links.
+article from wiki.case.edu.  Although it has been lightly edited, many of the
+links are dead, and some of the information is outdated. Efforts have been made
+to keep as much information intact as possible, but some sections have been 
+removed and some links have been updated.
 
 .. contents:: Table of Contents
 
@@ -62,8 +62,8 @@ services that use it. CAS does not handle authorization to individual
 services. It is up to the individual services to determine if a user is allowed
 to access them.
 
-How do I obtain the user's name, status, etc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How do I obtain the user's name, status, etc?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CAS merely authenticates a user. All the services know is that a username,
 *abc123* is accessing their site. CAS does not provide information about users
@@ -74,8 +74,8 @@ service behavior.  Some examples are displaying the user's name, filtering
 content based upon user's role within the university (student, staff, faculty,
 etc), grade level of student (freshmen, sophomore, junior, senior, etc).
 
-Why should I change my existing service to use CAS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why should I change my existing service to use CAS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The simple answer: supplying your password to log in all the time is
 annoying. Wouldn't it be convenient to just type your password once every eight
@@ -510,22 +510,23 @@ Example PHP Script
 Perl
 ~~~~
 
-See http://sourcesup.cru.fr/perlcas/.  Link is dead, search for perlCAS may dig
-something up.
+(Old: See http://sourcesup.cru.fr/perlcas/. )
+This link is dead! If you use CAS with Perl and find an appropriate resource,
+please update this wiki with it! (A Web search for PerlCAS might yield a good
+resource(s).)
 
 Java
 ~~~~
 
-See http://jasigch.princeton.edu:9000/display/CAS/Java+Client.  Link is dead!
-If you use CAS with Java and find an appropriate resource, please update this
-wiki with it!
+(Old: See http://jasigch.princeton.edu:9000/display/CAS/Java+Client. )
+This link is dead! If you use CAS with Java and find an appropriate resource,
+please update this wiki with it!
 
 Ruby / Ruby on Rails
 ~~~~~~~~~~~~~~~~~~~~
 
 `RubyCAS <https://github.com/rubycas>`_ has a client and server implementation.
-For integrating with Case CAS, you are interested only in the client
-implementation.
+For integrating with Case CAS, just look at the client implementation.
 
 Django
 ~~~~~~

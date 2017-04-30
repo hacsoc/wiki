@@ -1,19 +1,19 @@
-How To Hold a Link-State
-========================
+How To Hold a Link-State Conference
+===================================
 
 Link-State Committee
 --------------------
 
 **Chair of Speakers:** This person will handle the logistics and scheduling of
 talks.  They will *not* be solely responsible for soliciting speakers -- this is
-a duty that all HacSoc members should hare.
+a duty that all HacSoc members should share.
 
 - They will hold the whip on getting members to invite speakers.
 - They will evaluate talk proposals.
-- They are the person who will finalize the schedule: determine time slots, do
-  the logistics of putting speakers into slots, etc.
+- Ultimately, they will finalize the schedule by determining time slots,
+  handling the logistics of putting speakers into slots, etc.
 
-**Chair of Food:** This person organizes the food:
+**Chair of Food:** This person organizes food catering for the event:
 
 - Solicits suggestions from general body (and ideally provides some of their own
   suggestions).
