@@ -3,8 +3,8 @@ ACM and IEEE Officer Roles
 
 Below are the positions that have allowed Hacker Society to function in the past. The
 listed positions are setup to run ACM and IEEE under the umbrella of Hacker Society.
-The given descriptions are recommendations are able to be changed as the needs of the
-organization change. Along with that additional positions can be added when need.
+The given descriptions are recommendations which may be changed as the needs of the
+organization change. Along with that, additional positions can be added when needed.
 
 **President**
 
@@ -13,29 +13,29 @@ organization change. Along with that additional positions can be added when need
 
 **Vice President of ACM**
 
-- Maintain engagement with `ACM <http://www.acm.org/>`_
-- Keep involvment with CS/CE/Systems and Control portion of the department
+- Maintains engagement with `ACM <http://www.acm.org/>`_
+- Keeps involvement with CS/CE/Systems and Control portion of the department
 
 **Vice President of IEEE**
 
-- Maintain engagement with `IEEE <http://www.ieee.org/index.html>`_ 
-- Keep involvment with EE portion of the department
-- Manage hardware library
+- Maintains engagement with `IEEE <http://www.ieee.org/index.html>`_ 
+- Keeps involvement with EE portion of the department
+- Manages hardware library
 
 **Treasurer**
 
-- Approves and keeps record of all financial transactions
+- Approves and keeps a record of all financial transactions
 - Creates and approves all funding requests (from USG, CAA, etc.) and budgets
-- Holds the organization credit card
+- Holds the organization's credit card
 - Reimburses members
 
 **Public Relations Chair**
 
-- Create and distrubute information within the campus community
-- Contact companies involving events and their involvement
-- Establish sponorship plans for events
+- Creates and distributes information within the campus community
+- Contacts companies involving events and their involvement
+- Establishes sponsorship plans for events
 
 **Secretary**
 
-- Keep minutes for general body meetings 
-- Managing access to Mailing Lists/Trello/Google Drive
+- Keeps minutes for general body meetings 
+- Manages access to Mailing Lists/Trello/Google Drive
