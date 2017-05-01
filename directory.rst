@@ -33,5 +33,5 @@ Alumni
 
 - Andrew Mason: https://fixedpoint.xyz
 - Steph Hippo: http://stephhippo.com
-- Brian Stack: http://imbstack.github.io
+- Brian Stack: https://imbstack.com
 - Michelle Bergeron: http://mrbit.me
